@@ -1,0 +1,2 @@
+# jeizas.github.io
+blog
