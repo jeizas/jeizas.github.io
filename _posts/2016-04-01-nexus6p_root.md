@@ -11,13 +11,17 @@ tags: [tools]
 * 下载好adb和fastboot[驱动](http://pan.baidu.com/s/1i376T5z)，解压到指定目录下
 * 手机打开“开发者选项”，勾选usb调试并且选择MTP方式连接手机
 * 管理员身份打开命令提示符，到解压的目录执行
+
 ``` shell
 adb reboot bootloader
 ```
+
 * 这时手机重启会进入bootloader，继续输入
+
 ``` shell
 fastboot flashing unlock
 ```
+
 * 用音量+/-选择确认，重启之后解锁完成
 
 #####二、在线刷机
@@ -26,13 +30,17 @@ fastboot flashing unlock
 3. 若保留数据：编辑flash-all.bat文件，删掉最后一行，update前的“-w”。运行flash-all.bat脚本，手机重启，刷机成功。
 
 #####三、手机ROOT
-1. 刷入第三方recovery，使用大神制作的[twrp](https://twrp.me)，将其放入任意目录，shift+右键刷机文件夹，选择在此处打开命令窗口，
+
+- 刷入第三方recovery，使用大神制作的[twrp](https://twrp.me)，将其放入任意目录，shift+右键刷机文件夹，选择在此处打开命令窗口
+
 ``` shell
 adb reboot bootloader
 ```
-回车，进入bootloader，输入
+
+- 回车，进入bootloader，输入
+
 ``` shell
 fastboot flash recovery twrp-xxxx-angler.img
 ```
-回车，提示OK，则rec已经刷入
-2. 下载新版本的[superSU](http://forum.xda-developers.com)，放入手机根目录，手机关机，按音量“-”和“电源键”，进入刷机模式，选择“install”，找到刚才的文件开始root。
+
+- 下载新版本的[superSU](http://forum.xda-developers.com)，放入手机根目录，手机关机，按音量“-”和“电源键”，进入刷机模式，选择“install”，找到刚才的文件开始root。
