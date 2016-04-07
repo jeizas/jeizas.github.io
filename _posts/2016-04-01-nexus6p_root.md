@@ -21,7 +21,6 @@ fastboot flashing unlock
 * 用音量+/-选择确认，重启之后解锁完成
 
 #####二、在线刷机
-<<<<<<< HEAD:_posts/2016-03-31-Nexus6p_root.md
 1. 下载[官方镜像](https://developers.google.com/android/nexus/images),解压到指定的文件夹，然后将adb和fastboot驱动也放入解压的文件夹中，等待刷机
 2. shift+右键此文件夹，选择在此处打开命令窗口，输入adb reboot bootloader回车，这时手机会进入bootloader
 3. 若保留数据：编辑flash-all.bat文件，删掉最后一行，update前的“-w”。运行flash-all.bat脚本，手机重启，刷机成功。
@@ -36,7 +35,4 @@ adb reboot bootloader
 fastboot flash recovery twrp-xxxx-angler.img
 ```
 回车，提示OK，则rec已经刷入
-2. 下载新版本的[superSU](http://forum.xda-developers.com)，放入手机根目录，手机关机，按音量“-”和“电源键”，进入刷机模式，选择“install”，找到刚才的文件开始刷机。
-=======
-^未完待续……^
->>>>>>> 1c66c51c3dd20332b8ff2831e6c7d3b02af5d22b:_posts/2016-04-01-nexus6p_root.md
+2. 下载新版本的[superSU](http://forum.xda-developers.com)，放入手机根目录，手机关机，按音量“-”和“电源键”，进入刷机模式，选择“install”，找到刚才的文件开始root。
