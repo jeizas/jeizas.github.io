@@ -1,0 +1,18 @@
+#markdown: harpoopad
+permalink: /:title/
+url: http://jeizas.github.io
+#highlighter: pygments
+highlighter: rouge
+gems: [jekyll-paginate]
+paginate: 100
+paginate_path: "page:num"
+name: jeizas
+description: jeizas | Stop talking, start doing.
+author: jeizas
+email: jeizas1210@gmail.com
+duoshuo: jeizas
+weibo: jeizas
+hub: jeizas
+safe: false
+about: "弱菜一枚。"
+gems: [jekyll-paginate]
