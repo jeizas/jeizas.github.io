@@ -6,7 +6,8 @@ categories: [ROM]
 tags: [tools]
 ---
 ###Nexus6p刷机 
-~生命在于运动，手机在于刷机~ 
+  ~生命在于运动，手机在于刷机~ 
+
 #####一、解锁
 * 下载好adb和fastboot[驱动](http://pan.baidu.com/s/1i376T5z)，解压到指定目录下
 * 手机打开“开发者选项”，勾选usb调试并且选择MTP方式连接手机
