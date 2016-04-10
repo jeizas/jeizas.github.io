@@ -12,15 +12,15 @@ tags: [tools]
 * 手机打开“开发者选项”，勾选usb调试并且选择MTP方式连接手机
 * 管理员身份打开命令提示符，到解压的目录执行
 
-``` shell
+~~~ shell
 adb reboot bootloader
-```
+~~~
 
 * 这时手机重启会进入bootloader，继续输入
 
-``` shell
+~~~ shell
 fastboot flashing unlock
-```
+~~~
 
 * 用音量+/-选择确认，重启之后解锁完成
 
@@ -33,14 +33,14 @@ fastboot flashing unlock
 
 - 刷入第三方recovery，使用大神制作的[twrp](https://twrp.me)，将其放入任意目录，shift+右键刷机文件夹，选择在此处打开命令窗口
 
-``` shell
+~~~ shell
 adb reboot bootloader
-```
+~~~
 
 - 回车，进入bootloader，输入
 
-``` shell
+~~~ shell
 fastboot flash recovery twrp-xxxx-angler.img
-```
+~~~
 
 - 下载新版本的[superSU](http://forum.xda-developers.com)，放入手机根目录，手机关机，按音量“-”和“电源键”，进入刷机模式，选择“install”，找到刚才的文件开始root。
