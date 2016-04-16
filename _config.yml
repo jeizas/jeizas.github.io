@@ -2,7 +2,7 @@
 permalink: /:title/
 url: http://jeizas.github.io
 #highlighter: pygments
-markdown: kramdown
+#markdown: kramdown
 highlighter: rouge
 gems: [jekyll-paginate]
 paginate: 100
