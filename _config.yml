@@ -5,7 +5,7 @@ url: http://jeizas.github.io
 #markdown: kramdown
 highlighter: rouge
 gems: [jekyll-paginate]
-paginate: 100
+paginate: 20
 paginate_path: "page:num"
 name: jeizas
 description: jeizas | Stop talking, start doing.
