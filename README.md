@@ -6,4 +6,4 @@
 
 jeizas's blog
 
-2016-03-21 START
+2016-03-21 STARTing
