@@ -9,7 +9,7 @@ tags: [tools]
 
 > 琐碎小东西记录下来，省得每次都得搜索
 
-1. 编辑/etc/hosts文件
+##### 1. 编辑/etc/hosts文件
 
 ```shell
 vi /etc/hosts
@@ -17,14 +17,14 @@ vi /etc/hosts
 
 10.129.34.222 主机名
 
-2. 编辑/etc/sysconfig/network文件
+##### 2. 编辑/etc/sysconfig/network文件
 HOSTNAME=主机名
 
-3. Hostname设置
+##### 3. Hostname设置
 
 ```shell
 vi /etc/hostname
 ```
-
 把主机名添加到文件里面
-4. reboot
+
+##### 4. reboot 重启
