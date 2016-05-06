@@ -21,6 +21,7 @@ tags: [Java编程思想]
 ~~~java
 for(int i = 0, j = i +1; i < 10; i++)
 ~~~
+
 #### 三、 臭名昭著的goto
 
 * 起源：自从Edsger Dijkstra发表了著名的论文《goto considered harmful》（goto有害论），众人开始痛斥goto的不是。其实在汇编的中我们就接触过goto，它是在源码级上的跳转，若一个程序总是从一个地方跳到另一个地方，这样程序可读性就会很差，维护成本就会增大。
