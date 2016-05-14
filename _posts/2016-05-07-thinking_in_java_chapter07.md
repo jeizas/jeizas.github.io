@@ -51,7 +51,7 @@ public class Delegation {
 
 #### 二、 继承与初始化
 
-{% heightlight java linenos %}
+{% highlight java linenos %}
 class AA{}
 
 class BB extends AA{
@@ -59,7 +59,7 @@ class BB extends AA{
     	BB b = new BB();
     }
 }
-{% heightlight java %}
+{% endhighlight java %}
 
 - 在执行**BB.main**的时候，因为main是static方法，就触发了该类的加载（因为Java采用了动态加载技术，只有使用的时候才会被加载）。于是Java解释器调用类加载器在CLASSPATH中找BB.class，如果BB继承自AA，那么编译器注意到BB有一个基类AA（通过extends得到），就开始加载基类，不管你是否打算产生一个该基类的对象（因为需要将该类加载进内存，有其子必有其父是也）。如果该基类继承自其它类，就会以此类推。
 - 根基类中的static初始化会被执行，然后是第二个基类，以此类推（如果没有调用new，到这里就结束了）
