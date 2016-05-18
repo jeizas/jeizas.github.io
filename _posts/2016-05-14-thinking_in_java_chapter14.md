@@ -15,34 +15,34 @@ tags: [Java编程思想]
 ##### 1. 从实例中认识RTTI
 
 {% highlight java linenos %}
-    import java.util.*;
+import java.util.*;
 
-    abstract class Shape {
-        void draw() {System.out.println(this + ".draw()"); }
-        abstract public String toString();
-    }
+abstract class Shape {
+    void draw() {System.out.println(this + ".draw()"); }
+    abstract public String toString();
+}
 
-    class Circle extends Shape {
-        public String toString() { return "Circle"; }
-    }
+class Circle extends Shape {
+    public String toString() { return "Circle"; }
+}
 
-    class Triangle extends Shape {
-        public String toString() { return "Trangle"; }
-    }
+class Triangle extends Shape {
+    public String toString() { return "Trangle"; }
+}
 
-    class Square extends Shape {
-        public String toString() { return "Square"; }
-    }
+class Square extends Shape {
+    public String toString() { return "Square"; }
+}
 
-    public class Shapes {
-        public static void main(String[] args) { //注意这里，放入List的时候进行了什么操作？
-            List shapes = Arrays.asList(new Circle(), new Square(), new Triangle());
-            for(Shape shape : shapes) {//拿出来的时候又进行了什么操作？
-                shape.draw();
-            }
+public class Shapes {
+    public static void main(String[] args) { //注意这里，放入List的时候进行了什么操作？
+        List shapes = Arrays.asList(new Circle(), new Square(), new Triangle());
+        for(Shape shape : shapes) {//拿出来的时候又进行了什么操作？
+            shape.draw();
         }
-    }/*
-     output: Circle.draw() Square.draw() Trangle.draw()
+    }
+}/*
+ output: Circle.draw() Square.draw() Trangle.draw()
 
 {% endhighlight java %}
 
