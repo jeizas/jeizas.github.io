@@ -8,7 +8,7 @@ tags: [Java编程思想]
 
 ### 本章要点
 
-> 这一章主要告诉讲**程序在运行时发现和使用类信息**。主要有两种方式：一种是传统的**RTTI**（Run-Time Type Indentification）；另一种是**反射机制**。前者是在便伊始就知道类的所有信息，一个简单的例子：多态的动态绑定就是用的RTTI获取类信息的，而后者.class是在编译时不可获取的，只在运行时打开和检查.class文件。
+> 这一章主要告诉讲**程序在运行时发现和使用类信息**。主要有两种方式：一种是传统的**RTTI**（Run-Time Type Indentification）；另一种是**反射机制**。前者是在编译时就知道类的所有信息，一个简单的例子：多态的动态绑定就是用的RTTI获取类信息的，而后者.class是在编译时不可获取的，只在运行时打开和检查.class文件。
 
 #### 一、 RTTI
 
@@ -137,6 +137,102 @@ After creating Initable3 ref
 
 ##### 3. 泛型化的Class引用
 
+* Class<T>,只能创建T类型的对象。
+
 ### 二、 反射
 
-> 待续,明天写
+> 之前不理解反射，只知道Hibernate框架用到过反射，如今接触到了好好学习一下。
+
+* 反射出现的理由：上面提到的RTTI解决的只是编译期间已经获取了对象所属的类的类对象的类信息，我们假定程序从磁盘文件、或者网络连接中获取了一串字节码，并且被告知那个就代表一个类，这时候用RTTI就显得力不足心了，于是java引入了java.lang.reflect类库对以上问题的支持，这就是java著名的反射。
+* 再说区别：当通过反射与一个未知类型的对象打交道时，JVM只是简单地检查这个对象，看它属于哪个特定的类（就像RTTI一样）。在用它做其他事情之前必须先加载那个类的Class对象。因此，那个类的.class文件对于JVM来说必须是可获取的：要么在本地机器上，要么可以通过网络获得。所以RTTI和反射之间的真正的区别只在于，对RTTI来说，编译器在编译时打开和检查的.class文件。（换句话说，我们可以用“普通”方式调用对象的所有方法。）而对于反射机制来说，.class文件在编译时是不可获取的，所以是在运行时打开和检查.class文件。
+* 一个反射的例子：
+
+{% highlight java linenos %}
+package chapter14;
+
+import java.lang.reflect.Constructor; 
+import java.lang.reflect.Method; 
+import java.util.regex.Pattern;
+
+public class ShowMethods { 
+	private static String usage = "usage:\n" + 
+			"ShowMethods qualified.class.name\n" + 
+			"To show all methods in class or:\n" + 
+			"ShowMethods qualified.class.name word\n" + 
+			"To search for methods involving 'word'"; 
+	private static Pattern p = Pattern.compile("\\w+\\."); 
+	
+	public static void main(String[] args) { 
+		if(args.length < 1) { 
+			System.out.println(usage); 
+			System.exit(0); 
+		} 
+		int lines = 0; 
+		try { 
+			Class<?> c = Class.forName(args[0]); 
+			Method[] methods = c.getMethods(); 
+			Constructor[] ctors = c.getConstructors(); 
+			if(args.length == 1) { 
+				for(Method method : methods) { 
+					System.out.println(p.matcher(method.toString()).replaceAll("")); 
+					System.out.println("#" + method.toString()); 
+				} 
+				for(Constructor ctor : ctors) { 
+					System.out.println(p.matcher(ctor.toString()).replaceAll("")); 
+				} 
+			} else { 
+				for(Method method : methods) { 
+					if(method.toString().indexOf(args[1]) != -1) { 
+						System.out.println(p.matcher(method.toString()).replaceAll("")); lines++; 
+						} 
+					} 
+				for(Constructor ctor : ctors) { 
+					if(ctor.toString().indexOf(args[1]) != -1) { 
+						System.out.println(p.matcher(ctor.toString()).replaceAll("")); lines++; 
+					} 
+				} 
+			} 
+			
+		} catch(ClassNotFoundException e) { 
+			System.out.println("No such class: " + e); 
+		} 
+	}
+	
+}
+{% endhighlight linenos %}
+
+* invoke方法的使用
+
+{% highlight java linenos %}
+package chapter14;
+
+import java.lang.reflect.InvocationTargetException;
+import java.lang.reflect.Method;
+
+public class InvokeTest {
+	
+	public int add(int param1, int param2){
+		return param1 +  param2;
+	}
+	
+	public String echo(String str){
+		return str;
+	}
+	
+	public static void main(String[] args) throws InstantiationException, IllegalAccessException, NoSuchMethodException, SecurityException, IllegalArgumentException, InvocationTargetException{
+		Class<InvokeTest> classType = InvokeTest.class;
+		Object invokeTest = classType.newInstance();
+		Method addMethod = classType.getMethod("add", new Class[] {int.class,
+				int.class});
+		Object result = addMethod.invoke(invokeTest, new Object[] {1, new Integer(10)});
+		System.out.println(result);
+		
+		Method echoMethod = classType.getMethod("echo",new Class[]{String.class});
+		Object result2 = echoMethod.invoke(invokeTest, new Object[]{"jeizas"});
+		System.out.println(result2);
+	}
+}
+{% endhighlight linenos %}
+
+* 未完待续。。。
+
