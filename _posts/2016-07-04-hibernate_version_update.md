@@ -7,6 +7,7 @@ tags: Hibernate
 ---
 
 ### Hibernate
+
 ##### 1. HQL占位符
 > hibernate 4.1之后对于HQL中查询参数的占位符做了改进，如果仍然用老式的占位符会有类似如下的告警信息:
 
