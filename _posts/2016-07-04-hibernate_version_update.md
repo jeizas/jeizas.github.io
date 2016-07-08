@@ -12,7 +12,7 @@ tags: Hibernate
 > hibernate 4.1之后对于HQL中查询参数的占位符做了改进，如果仍然用老式的占位符会有类似如下的告警信息:
 
 {% highlight java linenos %}
-//错误
+//警告
 Positional parameter are considered deprecated; use named parameters or JPA-style positional parameters instead.
 //老代码
 String hql = "select t from Blog t where t.site=?";
