@@ -40,6 +40,6 @@ System.out.print(testClosure().get());
 > 待续
 
 ### 参考致谢
-[lambda表达式和闭包](http://www.importnew.com/17905.html)
-[JAVA8 十大新特性详解](http://www.125135.com/842.htm)
-[Java 8 新特性终极版](http://www.codeceo.com/article/java-8-new-feature.html)
+* [lambda表达式和闭包](http://www.importnew.com/17905.html)
+* [JAVA8 十大新特性详解](http://www.125135.com/842.htm)
+* [Java 8 新特性终极版](http://www.codeceo.com/article/java-8-new-feature.html)
