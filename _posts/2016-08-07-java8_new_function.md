@@ -43,3 +43,4 @@ System.out.print(testClosure().get());
 * [lambda表达式和闭包](http://www.importnew.com/17905.html)
 * [JAVA8 十大新特性详解](http://www.125135.com/842.htm)
 * [Java 8 新特性终极版](http://www.codeceo.com/article/java-8-new-feature.html)
+* [JAVA--md5签名文件](http://blog.163.com/wallace0615@126/blog/static/35145824200793151633497/)
