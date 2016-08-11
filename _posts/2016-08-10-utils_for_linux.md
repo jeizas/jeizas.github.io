@@ -6,5 +6,5 @@ categories: [linux]
 tags: shadowsocks
 ---
 
-### 友情链接
+### 1. 终端翻墙的方法（使用privoxy代理服务器）
 * [使用 shadowsocks 实现科学上网](http://liyangliang.me/posts/2015/05/bypass-gfw-with-shadowsocks/)
