@@ -1,4 +1,3 @@
-
 ---
 layout: post
 title: "Java8新特性详解"
@@ -16,6 +15,7 @@ tags: java
 > 受面向对象编程思想的影响，对与“闭包”这个词一直比较难以理解，于是最近网上查关于它资料，现在也算是有点想法了，下面分享给大家我对闭包的理解。
 
 ##### 1 .概念：查找资料感觉，Ruby之父松本行弘在《代码的未来》一书中解释的最好：闭包就是把函数以及变量包起来，使得变量的生存周期延长（这里变量这个词说的比较模糊，我的理解是把闭包体上下文中的局部变量的范围扩大，在闭包体内部任然生效），下面上代码：
+
 {% highlight java linenos %}
 //java6开始以这种方式支持闭包
 public interface Supplier<T> {
@@ -37,6 +37,7 @@ System.out.print(testClosure().get());
 > 瞅着下面的函数式接口就是从这儿衍生出来的，只是将称之为函数式接口的编写做了一定的规范，闭包体使用了lambda替代，i变量的定义使用了语法糖，在编译期间将其指定为final类型，从此改善了匿名内部类中变量只能访问局部变量为final修饰的变量。java8中把一些常用的接口改成函数式接口如：Comparator、Runnable等。
 
 ##### 2 .使用场景：
+
 > 在JAVA中，闭包可以通过“接口+内部类”来实现，因为对于非静态内部类而言，它不仅记录了其外部类的详细信息，还保留了一个创建非静态内部类的引用，通过它可以访问外部类的私有成员，因此可以把非静态内部类当成面向对象领域的闭包。那么，通过这种仿闭包的非静态内部类可以很方便地实现回调，这是一种非常灵活的功能。
 
 ### 二、lamdba表达式
@@ -44,8 +45,7 @@ System.out.print(testClosure().get());
 * 基本语法
 
 {% highlight java linenos %}
-	(parameters) -> expression
-    或(parameters) ->{ statements; }
+	(parameters) -> expression 或(parameters) ->{ statements; }
 {% endhighlight java linenos %}
 
 * 返回类型：函数式接口（下面介绍）
@@ -87,6 +87,7 @@ public class Test {
 {% endhighlight java linenos %}
 
 ### 参考致谢
+
 * [lambda表达式和闭包](http://www.importnew.com/17905.html)
 * [JAVA8 十大新特性详解](http://www.125135.com/842.htm)
 * [Java 8 新特性终极版](http://www.codeceo.com/article/java-8-new-feature.html)
