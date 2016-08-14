@@ -65,7 +65,7 @@ package functionalIngerface;
 @FunctionalInterface
 public interface TestInterface<I, O> {
 	
-	public O toInteger(I i);
+	public O toInteger(I i);//java接口public、abstract、static
 	
 	default void defultMethod(){
 		System.out.println("default method...");
@@ -85,6 +85,54 @@ public class Test {
 	}
 }
 {% endhighlight java linenos %}
+
+### 四、JDK 1.8 API的常用函数式接口
+
+> 在老Java中常用到的比如Comparator或者Runnable接口，这些接口都增加了@FunctionalInterface注解以便能用在lambda上。Java 8 API同样还提供了很多全新的函数式接口来让工作更加方便
+
+* Predicate接口：接口只有一个参数，返回boolean类型
+* Function 接口：接口有一个参数并且返回一个结果，并附带了一些可以和其他函数组合的默认方法（compose, andThen）
+* Supplier 接口：接口返回一个任意范型的值，和Function接口不同的是该接口没有任何参数
+* Consumer 接口；接口表示执行在单个参数上的操作。
+* Comparator 接口：是老Java中的经典接口， Java 8在此之上添加了多种默认方法：
+* Optional 接口：不是函数是接口，这是个用来防止NullPointerException异常的辅助类型
+* Filter 过滤
+* Stream 接口
+* Sort 排序
+* Map 映射
+* Match 匹配
+* Count 计数
+* Reduce 规约
+* 并行Streams
+* Map
+
+{% highlight java linenos %}
+public class Lamdba {
+	
+	static Function<String, Integer> toInteger = (x)-> Integer.valueOf(x);
+	static Predicate<String> isNull = (x) ->  x == null;
+	static Supplier<String> testSupplier = () -> new String("supplier");
+	static Consumer<String> greeter = (s) -> System.out.println("Hello, " + s);
+//	static Optional<String> optional = Optional.of("abcdefg");
+	
+	public static void main(String[] args){
+		System.out.println(toInteger.apply("2"));
+		System.out.println(isNull.test(null));
+		System.out.println(testSupplier.get());
+		greeter.accept("consumer");
+		
+		List<String> strs = Arrays.asList("a", "c", "e", "f");
+		Collections.sort(strs, (s1, s2) -> s2.compareTo(s1));
+		strs.stream().forEach(System.out::print);
+		
+		Optional.of("abcdefg").ifPresent((s) -> System.out.println("\n" + s.charAt(0)));
+	}
+}
+{% endhighlight java linenos %}
+
+### 五、新API
+
+> 待续
 
 ### 参考致谢
 
