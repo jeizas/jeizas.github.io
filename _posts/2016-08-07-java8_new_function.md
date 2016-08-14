@@ -1,3 +1,4 @@
+
 ---
 layout: post
 title: "Java8新特性详解"
@@ -36,8 +37,54 @@ System.out.print(testClosure().get());
 > 瞅着下面的函数式接口就是从这儿衍生出来的，只是将称之为函数式接口的编写做了一定的规范，闭包体使用了lambda替代，i变量的定义使用了语法糖，在编译期间将其指定为final类型，从此改善了匿名内部类中变量只能访问局部变量为final修饰的变量。java8中把一些常用的接口改成函数式接口如：Comparator、Runnable等。
 
 ##### 2 .使用场景：
+> 在JAVA中，闭包可以通过“接口+内部类”来实现，因为对于非静态内部类而言，它不仅记录了其外部类的详细信息，还保留了一个创建非静态内部类的引用，通过它可以访问外部类的私有成员，因此可以把非静态内部类当成面向对象领域的闭包。那么，通过这种仿闭包的非静态内部类可以很方便地实现回调，这是一种非常灵活的功能。
 
-> 待续
+### 二、lamdba表达式
+
+* 基本语法
+
+{% highlight java linenos %}
+	(parameters) -> expression
+    或(parameters) ->{ statements; }
+{% endhighlight java linenos %}
+
+* 返回类型：函数式接口（下面介绍）
+* 作用域: 在lambda表达式中访问外层作用域和老版本的匿名对象中的方式很相似。你可以直接访问标记了final的外层局部变量，或者实例的字段以及静态变量。
+
+### 三、函数式接口
+
+* 概念：众所周知在java中，每个方法或者表达式都对应一个类型，那么问题来了：lamdba表达式对应的类型是什么呢？答案很简单是一种听起来熟悉又陌生的创新接口“函数式接口”。看这个名字归根结底它也是一种接口（interface），每一个lambda表达式都对应一个类型，通常是接口类型。
+* 定义“函数式接口”是指仅仅只包含一个抽象方法的接口，每一个该类型的lambda表达式都会被匹配到这个抽象方法。因为 默认方法 不算抽象方法，所以你也可以给你的函数式接口添加默认方法。
+* 实例：
+{% highlight java linenos %}
+package functionalIngerface;
+
+/**
+ * 函数式接口，@FunctionalInterface编译器自动检测是否符合函数式接口
+ */
+@FunctionalInterface
+public interface TestInterface<I, O> {
+	
+	public O toInteger(I i);
+	
+	default void defultMethod(){
+		System.out.println("default method...");
+	}
+}
+
+package functionalIngerface;
+
+public class Test {
+	
+	static TestInterface<String, Integer> convert = (x) -> {return Integer.valueOf(x);};
+	
+	public static void main(String[] args){
+		Integer intVal = convert.toInteger("2");//函数式接口中的方法
+		convert.defultMethod();//默认方法
+		System.out.println(intVal);
+	}
+}
+{% endhighlight java linenos %}
 
 ### 参考致谢
 * [lambda表达式和闭包](http://www.importnew.com/17905.html)
