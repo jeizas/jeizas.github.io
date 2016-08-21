@@ -24,3 +24,5 @@ tags: java
 
 ### 友情链接
 * [Java的图片处理工具类](http://www.cnblogs.com/liyunqi007/archive/2011/11/23/2260052.html)
+* [Graphics2D (Java Platform SE 8 )](https://docs.oracle.com/javase/8/docs/api/java/awt/Graphics2D.html)
+* [Java Graphics2D类的绘图方法](http://www.weixueyuan.net/view/6074.html)
