@@ -6,4 +6,4 @@
 
 jeizas's blog
 
-2016-08-26 STARTING
+- 2016-08-26 STARTING
