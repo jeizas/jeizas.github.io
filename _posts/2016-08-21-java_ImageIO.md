@@ -26,3 +26,4 @@ tags: java
 * [Java的图片处理工具类](http://www.cnblogs.com/liyunqi007/archive/2011/11/23/2260052.html)
 * [Graphics2D (Java Platform SE 8 )](https://docs.oracle.com/javase/8/docs/api/java/awt/Graphics2D.html)
 * [Java Graphics2D类的绘图方法](http://www.weixueyuan.net/view/6074.html)
+* [GraphicsMagick+im4java实现高质量大图的处理](http://www.open-open.com/lib/view/open1355754261963.html)
