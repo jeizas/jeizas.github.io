@@ -24,3 +24,4 @@ tags: thinking
 
 ---
 ### 友情链接
+[我的作品主页](http://jeizas.alltuu.com)
