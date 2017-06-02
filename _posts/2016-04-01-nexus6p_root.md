@@ -44,4 +44,9 @@ adb reboot bootloader
 fastboot flash recovery twrp-xxxx-angler.img
 ~~~
 
-- 下载新版本的[superSU](http://forum.xda-developers.com)，放入手机根目录，手机关机，按音量“-”和“电源键”，进入刷机模式，选择“install”，找到刚才的文件开始root。
+- 下载新版本的[superSU](http://download.chainfire.eu/supersu)，放入手机根目录，手机关机，按音量“-”和“电源键”，进入刷机模式，选择“install”，找到刚才的文件开始root。
+
+##### 四、刷入刷pixel home以及圆角图标
+
+- 下载[Pixel-Mod-7.1.1-N6P-nmf26f-chromloop.com.zip](https://forum.xda-developers.com/nexus-6p/themes-apps/mod-pixel-exclusive-home-button-t3499244)
+- 安装flashfire(Play Store)
