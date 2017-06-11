@@ -7,5 +7,6 @@ tags: 算法
 ---
 
 ### 要点
-> 底层基础决定上层建筑，再回首，一切都近了。
-&emsp;&emsp;
+> 今天的方向，决定明天的道路
+
+#### &emsp;&emsp;[github源码地址](https://github.com/jeizas/algorithm)
