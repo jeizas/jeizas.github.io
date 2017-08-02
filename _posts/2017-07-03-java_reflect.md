@@ -22,13 +22,20 @@ tags: java
 
 ##### 1.Class
 
-> 
+>  类Class对象
+
+{% highlight java %}
+//如果你在编译的时候知道一个类的类名
+Class myObjectClass = MyObject.class
+//在编译的时候你不知道类名，但是在运行时有一个字符串形式的类名
+Class class = Class.forName(className);
+{% endhighlight %}
 
 ##### 2.Constructor
 
 > 类的构造器对象
 
-{% highlight java linenos %}
+{% highlight java %}
 // -- 获得使用特殊的参数类型的公共构造函数
 Constructor getConstructor(Class[] params)
 // -- 获得类的所有公共构造函数 
