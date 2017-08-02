@@ -1,6 +1,6 @@
 permalink: /:title/
 url: http://jeizas.github.io
-#markdown: macdown
+markdown: macdown
 highlighter: rouge
 #highlighter: pygments
 gems: [jekyll-paginate]
