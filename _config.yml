@@ -1,9 +1,8 @@
-#markdown: harpoopad
 permalink: /:title/
 url: http://jeizas.github.io
-#highlighter: pygments
-#markdown: kramdown
+#markdown: macdown
 highlighter: rouge
+#highlighter: pygments
 gems: [jekyll-paginate]
 paginate: 20
 paginate_path: "page:num"
