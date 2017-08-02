@@ -12,8 +12,15 @@ tags: java
 
 ### 二、设计模式的原则
 
+- Open Close Principle
+- Liskov Substitution Principle
+- Dependence Inversion Principle
+- Interface Segregation Principle
+- Demeter principle
+- Composite Reuse Principle
+
 ---
 
 #### 参考资料
 
-[Java开发中的23种设计模式详解](http://www.cnblogs.com/maowang1991/archive/2013/04/15/3023236.html)
+- [Java开发中的23种设计模式详解](http://www.cnblogs.com/maowang1991/archive/2013/04/15/3023236.html)
