@@ -12,6 +12,8 @@ tags: java
 
 ### 二、设计模式的原则
 
-### 参考资料
+---
+
+#### 参考资料
 
 [Java开发中的23种设计模式详解](http://www.cnblogs.com/maowang1991/archive/2013/04/15/3023236.html)
