@@ -21,21 +21,21 @@ tags: linux
 
 * 本次未提交的代码保到本地缓冲区，代码保存到上次的提交
 
-```
+{% highlight shell linenos %}
 git stash
-```
+{% endhighlight shell %}
 
 * 将本地缓存区的代码取到工作空间
 
-```
+{% highlight shell linenos %}
 git stash pop
-```
+{% endhighlight shell %}
 
 * 显示暂存区和工作区的差异
 
-```
+{% highlight shell linenos %}
 git diff
-```
+{% endhighlight shell %}
 
 
 ### 友情链接
