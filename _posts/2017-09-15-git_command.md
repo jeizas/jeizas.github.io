@@ -16,7 +16,6 @@ tags: linux
 
 ### 常用命令
 
-> 
 ![](../media/img/20170915/git.png)
 
 ##### 1.本次未提交的代码保到本地缓冲区，代码保存到上次的提交
@@ -32,6 +31,20 @@ git stash pop
 ##### 3.显示暂存区和工作区的差异
 ```shell
 git diff
+```
+
+##### 4.回滚
+
+- 本地提交之后回滚
+
+```shell
+git reset --hard [hash]
+```
+
+- 修改之后没有commit到本地代码库
+
+```shell
+git checkout filename
 ```
 
 
