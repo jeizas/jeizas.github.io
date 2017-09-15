@@ -37,15 +37,14 @@ git diff
 
 - 本地提交之后回滚
 
-```shell
-git reset --hard [hash]
-```
-
+	```shell
+	git reset --hard [hash]
+	```
 - 修改之后没有commit到本地代码库
 
-```shell
-git checkout filename
-```
+	```shell
+	git checkout filename
+	```
 
 
 ### 友情链接
