@@ -12,11 +12,13 @@ tags: linux
 
 ### 简要说明
 
-&emsp;&emsp;待续
+![](../media/img/20170915/git.png)
 
 ### 常用命令
 
-![](../media/img/20170915/git.png)
+![](../media/img/git_command.png)
+
+### 补充命令
 
 ##### 1.本次未提交的代码保到本地缓冲区，代码保存到上次的提交
 ```shell
