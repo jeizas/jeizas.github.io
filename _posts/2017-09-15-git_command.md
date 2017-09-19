@@ -16,7 +16,7 @@ tags: linux
 
 ### 常用命令
 
-![](../media/img/git_command.png)
+![](../media/img/20170915/git_command.png)
 
 ### 补充命令
 
