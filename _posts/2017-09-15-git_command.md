@@ -46,6 +46,12 @@ git diff
 	git checkout filename
 	```
 
+##### 5.提交
+
+- 补增提交
+	```shell
+	git commit -C head -a --amend
+	```
 
 ### 友情链接
 > [**常用 Git 命令清单**](http://www.ruanyifeng.com/blog/2015/12/git-cheat-sheet.html)
