@@ -23,36 +23,29 @@ tags: linux
 
 #### 3.1 本地工作取
 
-##### 3.1.1 显示暂存区和工作区的差异
-```shell
+{% highlight java linenos %}
+//显示暂存区和工作区的差异
 git diff
-```
-
-##### 3.1.2 本次未提交的代码保到本地缓冲区，代码保存到上次的提交
-```shell
+//本次未提交的代码保到本地缓冲区，代码保存到上次的提交
 git stash
-```
-
-##### 3.1.3 将本地缓存区的代码取到工作空间
-```shell
+//将本地缓存区的代码取到工作空间
 git stash pop
-```
-##### 3.1.4 回滚
-- 本地提交之后回滚（将删除改节点之后工作空间变更的任何代码）
-	```shell
-	git reset --hard [hash]
-	```
-- 修改之后没有commit到本地代码库
-	```shell
-	git checkout filename
-	```
-	
-##### 5.补增提交
-```shell
+//本地提交之后回滚（将删除改节点之后工作空间变更的任何代码）
+git reset --hard [hash]
+//修改之后没有commit到本地代码库
+git checkout [filename]
+//补增提交
 git commit -C head -a --amend
-```
+{% endhighlight java%}
 	
 #### 3.2 本地git库
+
+{% highlight java linenos %}
+//更新本地git库
+git fetch
+//更新本地git库，删除本地git库在远程已经删除的分支
+git fetch -p
+{% endhighlight java %}
 
 #### 3.3 远程git库
 	
