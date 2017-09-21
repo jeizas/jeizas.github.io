@@ -36,6 +36,12 @@ git reset --hard [hash]
 git checkout [filename]
 //补增提交
 git commit -C head -a --amend
+//查看特定文件的历史信息
+git blame
+//拉取远程分支a，将远程和本地的快照合并，如果冲突产生提交
+git pull [branch-a] == git fetch + git merge
+//拉取远程分支a，在当前分支基础上把远程交叉节点之后的提交依次转移到当前分支（提交曲线更平滑）
+git pull --rebase [branch-a] == git fetch + git rebase
 {% endhighlight java%}
 	
 #### 3.2 本地git库
@@ -46,8 +52,6 @@ git fetch
 //更新本地git库，删除本地git库在远程已经删除的分支
 git fetch -p
 {% endhighlight java %}
-
-#### 3.3 远程git库
 	
 #### 3.4 设置忽略文件
 
