@@ -13,28 +13,35 @@ tags: tools
 ### 一、安装步骤
 
 - idea 中安装插件
+
 ![](../media/img/jrebel/0.jpeg)
 
 - 配置自动编译
+
 ![](../media/img/jrebel/1.jpeg)
 
 - 勾选上compiler.automake.allow.when.app.running
+
 ![](../media/img/jrebel/2.jpeg)
 ![](../media/img/jrebel/3.jpeg)
 
 - 获取激活code，在https://my.jrebel.com/完成注册即可获取
+
 ![](../media/img/jrebel/5.jpeg)
 
 - 激活码贴入idea，完成激活
+
 ![](../media/img/jrebel/4.jpeg)
 
 ### 二、启动项目开始测试
 
 - 修改前代码以及输出
+
 ![](../media/img/jrebel/6.jpeg)
 ![](../media/img/jrebel/7.jpeg)
 
 - 修改后代码以及输出
+
 ![](../media/img/jrebel/9.jpeg)
 ![](../media/img/jrebel/8.jpeg)
 
