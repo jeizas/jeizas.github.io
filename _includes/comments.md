@@ -1,20 +1,15 @@
-{% if site.duoshuo %}
-<!-- LiveRe City install code -->
-<div id="lv-container" data-id="city" data-uid="MTAyMC8zMTkxNy84NDgx">
-	<script type="text/javascript">
-   (function(d, s) {
-       var j, e = d.getElementsByTagName(s)[0];
-
-       if (typeof LivereTower === 'function') { return; }
-
-       j = d.createElement(s);
-       j.src = 'https://cdn-city.livere.com/js/embed.dist.js';
-       j.async = true;
-
-       e.parentNode.insertBefore(j, e);
-   })(document, 'script');
-	</script>
-<noscript> Please activate JavaScript for write a comment in LiveRe</noscript>
-</div>
-<!-- completed City install code -->
-{% endif %}
+<div id="hypercomments_widget"></div>
+<script type="text/javascript">
+  _hcwp = window._hcwp || [];
+  _hcwp.push({widget:"Stream", widget_id: 98108});
+  (function() {
+  if("HC_LOAD_INIT" in window)return;
+  HC_LOAD_INIT = true;
+  var lang = (navigator.language || navigator.systemLanguage || navigator.userLanguage || "en").substr(0, 2).toLowerCase();
+  var hcc = document.createElement("script"); hcc.type = "text/javascript"; hcc.async = true;
+  hcc.src = ("https:" == document.location.protocol ? "https" : "http")+"://w.hypercomments.com/widget/hc/98108/"+lang+"/widget.js";
+  var s = document.getElementsByTagName("script")[0];
+  s.parentNode.insertBefore(hcc, s.nextSibling);
+  })();
+</script>
+<a href="http://hypercomments.com" rel = "nofollow" class="hc-link" title="comments widget">comments powered by HyperComments</a>
