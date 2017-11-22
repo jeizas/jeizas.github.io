@@ -1,4 +1,3 @@
-{% if site.duoshuo %}
 <!-- LiveRe City install code -->
 <div id="lv-container" data-id="city" data-uid="MTAyMC8zMTkxNy84NDgx">
 	<script type="text/javascript">
@@ -16,5 +15,3 @@
 	</script>
 <noscript> Please activate JavaScript for write a comment in LiveRe</noscript>
 </div>
-<!-- completed City install code -->
-{% endif %}
