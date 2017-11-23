@@ -4,7 +4,7 @@
 * @author linghua.zhang@me.com
 * @link http://lhzhang.com/
 * @update 2011-12-20
-* 
+*
 * |/ | (~ (~
 * |\.|._)._)
 * --------------------------------- */
@@ -138,4 +138,18 @@ background: #ff0000;
 .paginator a:hover{
 color: white;
 background: #83BF73;
+}
+
+/*统计相关*/
+.post-meta-divider {
+  font-size: $small-font-size;
+  color: $grey-color;
+}
+.post-meta-item-text {
+  font-size: $small-font-size;
+  color: $grey-color;
+}
+.leancloud-visitors-count{
+  font-size: $small-font-size;
+  color: $grey-color;
 }

@@ -16,6 +16,7 @@ hub: jeizas
 safe: false
 about: "弱菜一枚。"
 gems: [jekyll-paginate]
-lean_cloud :
-  app_id   :  "2xyOLOJvymMHt1Ufll5Q5Jif-gzGzoHsz"
-  app_key  :  "pu6HKchIbTtrwXVYEi3rcNQ9"
+leancloud:
+  enable: true
+  app_id: 2xyOLOJvymMHt1Ufll5Q5Jif-gzGzoHsz
+  app_key: pu6HKchIbTtrwXVYEi3rcNQ9
