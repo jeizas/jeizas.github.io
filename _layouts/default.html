@@ -10,14 +10,21 @@
     <link rel="stylesheet" href="/media/css/highlight.css" media="all"/>
     <script type="text/javascript" src="/media/js/jquery-1.7.1.min.js"></script>
     <script>
-	var _hmt = _hmt || [];
-	(function() {
-	  var hm = document.createElement("script");
-	  hm.src = "//hm.baidu.com/hm.js?c8b6b0935d500265a25412545ed5f058";
-	  var s = document.getElementsByTagName("script")[0];
-	  s.parentNode.insertBefore(hm, s);
-	})();
+    	var _hmt = _hmt || [];
+    	(function() {
+    	  var hm = document.createElement("script");
+    	  hm.src = "//hm.baidu.com/hm.js?c8b6b0935d500265a25412545ed5f058";
+    	  var s = document.getElementsByTagName("script")[0];
+    	  s.parentNode.insertBefore(hm, s);
+    	})();
     </script>
+
+    <!-- 统计功能  -->
+    <script src="https://code.jquery.com/jquery-3.2.0.min.js"></script>
+    <script src="https://cdn1.lncld.net/static/js/av-core-mini-0.6.1.js"></script>
+    <script>AV.initialize("{{site.leancloud.app_id}}", "{{site.leancloud.app_key}}");</script>
+    <script href="/media/js/leancloud-analytics.js"></script>
+    
   </head>
   <body>
     {% include leancloud-analytics.html %}

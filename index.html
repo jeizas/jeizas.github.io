@@ -13,14 +13,15 @@ layout: page
   <li class="listing-item">
     <time datetime="{{ post.date | date:"%Y-%m-%d" }}">{{ post.date | date:"%Y-%m-%d" }}</time>
     <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
+
     <!-- 统计相关 -->
-    <!-- {% if site.leancloud.enable %} -->
+    {% if site.leancloud.enable %}
         <span id="{{ post.url }}" class="leancloud_visitors" data-flag-title="{{ post.title }}">
          <span class="post-meta-divider">|</span>
          <span class="post-meta-item-text"> Hits:  </span>
          <span class="leancloud-visitors-count"></span>
         </span>
-    <!-- {% endif %} -->
+    {% endif %}
     <!-- 文章中想显示摘要，可以将下面注释去掉。可显示100字摘要-->
     <p>{{ post.content | strip_html | truncate:100 }}</p>
   </li>
