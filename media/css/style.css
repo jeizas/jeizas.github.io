@@ -153,3 +153,7 @@ background: #83BF73;
   font-size: $small-font-size;
   color: $grey-color;
 }
+
+#profile_main {
+  border-radius: 75px;
+}
