@@ -51,7 +51,7 @@ td, th { padding:5px 10px; border:1px solid #886; background:#efefef; }
 .meta{font-size:12px;color:#888;}
 .pageNav{font-weight:bold;font-size:17px;}
 .pageNavInvalid{font-weight:bold;font-size:17px;color:#D0D0D0;}
-header{padding:.5em 0;border-bottom: 1px solid #cccccc;}
+header{padding:.5em 0;border-bottom: 1px solid #cccccc;height: 50px}
 nav{font-family:"Electrolize",sans-serif;font-size:1.1em;text-transform:uppercase;float:left;margin-left:-8em;width:6em;text-align:center;padding: 0em 0em;}
 nav a{display:block;padding:.7em 1em;color:#000000;}
 nav a:hover{background-color:#ff0000;text-decoration:none;color:#f9f9f9;-webkit-transition:color .2s linear;}
@@ -155,5 +155,6 @@ background: #83BF73;
 }
 
 #profile_main {
-  border-radius: 75px;
+  float: right;
+  border-radius: 25px;
 }
