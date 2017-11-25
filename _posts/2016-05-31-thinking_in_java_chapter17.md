@@ -2,7 +2,7 @@
 layout: post
 title: "Java编程思想 - 第十七章、容器深入研究"
 date: 2016-05-31 23:01
-categories: [java]
+categories: [skill]
 tags: [Java编程思想]
 ---
 

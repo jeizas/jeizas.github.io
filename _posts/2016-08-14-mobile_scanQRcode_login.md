@@ -2,7 +2,7 @@
 layout: post
 title: "M端扫码登录PC网页"
 date: 2016-08-14 00:23
-categories: [java]
+categories: [skill]
 tags: java
 ---
 

@@ -2,7 +2,7 @@
 layout: post
 title: "新年将至，情有所思"
 date: 2017-11-22 21:40
-categories: [thinking]
+categories: [life]
 tags: thinking
 ---
 
@@ -10,7 +10,7 @@ tags: thinking
 
 > 冬天到了，连敲的键盘都是冰凉的。
 
-### 年前目标
+### 年前
 
 &emsp;&emsp;寻觅，找到內心的归属。
 

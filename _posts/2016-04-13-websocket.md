@@ -2,7 +2,7 @@
 layout: post
 title: "websocket学习笔记"
 date: 2016-04-13 23:20
-categories: [markdown]
+categories: [skill]
 tags: [java]
 ---
 ### 本章要点
@@ -23,7 +23,7 @@ tags: [java]
 	$(function () {//间隔3s自动加载一次  
 		getData(); //首次立即加载  
 		window.setInterval(getData, 3000); //循环执行！！  
-	}); 
+	});
 {% endhighlight java %}
 
 ### 2. Long poll 长连接

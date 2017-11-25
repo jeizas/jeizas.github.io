@@ -2,7 +2,7 @@
 layout: post
 title: "Hiberbate版本更新"
 date: 2016-07-04 16:23
-categories: [Hiberbate]
+categories: [skill]
 tags: Hibernate
 ---
 
@@ -27,4 +27,3 @@ query2.setParameter(0, "micmiu.com");/*其中"?"后面的"0"代表索引位置�
 
 ##### 2. 查询数据库的连接IP
 select SUBSTRING_INDEX(host,':',1) as ip , count(*) from information_schema.processlist group by ip;
-

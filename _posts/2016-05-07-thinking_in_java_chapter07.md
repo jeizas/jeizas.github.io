@@ -2,7 +2,7 @@
 layout: post
 title: "Java编程思想 - 第七章、复用类"
 date: 2016-05-07 13:57
-categories: [java]
+categories: [skill]
 tags: [Java编程思想]
 ---
 
@@ -27,11 +27,11 @@ class SpaceShipControls {
 public class Delegation {
 	private String name;
 	private SpaceShipControls controls = new SpaceShipControls();
-    
+
 	public Delegation(String name){
 		this.name = name;
 	}
-	
+
 	//delegation methods
 	void up(int valocity) {
 		controls.up(valocity);
@@ -39,7 +39,7 @@ public class Delegation {
 	void down(int velocity) {
 		controls.down(velocity);
 	}
-	
+
 	public static void main(String[] args){
 		Delegation deletation = new Delegation("NSEA Protector");
 		deletation.up(100);
@@ -71,7 +71,7 @@ class BB extends AA{
 #### 三、 final关键字
 
 * final数据
-	* 一个永不改变的编译时常量；对于这种情况，编译器可以把常量带入任何可能用到都额其他计算公式中，也就是说，可以在编译时执行计算式，减轻运行时的负担。在java中这种常量必须是基本类型，定义的时候用final关键字，并且赋值。	
+	* 一个永不改变的编译时常量；对于这种情况，编译器可以把常量带入任何可能用到都额其他计算公式中，也就是说，可以在编译时执行计算式，减轻运行时的负担。在java中这种常量必须是基本类型，定义的时候用final关键字，并且赋值。
 	* 一个在运行时被初始化的值，而你不希望改变它：对于基本类型，final的数值恒定不变；而对于对象引用，final的引用恒定不变（引用被初始化指向一个对象，就无法，再把他指向另一个对象，然而对象自身可以被修改，对数组也适用）
 * final方法
 	* 原因一：把方法锁住，以防止任何继承类修改它的含义，这是处于设计的考虑，想要考虑在继承中使方法保持不变，并且不会被覆盖

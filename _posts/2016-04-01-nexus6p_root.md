@@ -2,11 +2,11 @@
 layout: post
 title: "nexus6p 刷机"
 date: 2016-04-01 02:12
-categories: [ROM]
+categories: [skill]
 tags: [tools]
 ---
-### Nexus6p刷机 
-  > 生命在于运动，手机在于刷机 
+### Nexus6p刷机
+  > 生命在于运动，手机在于刷机
 
 ##### 一、解锁
 * 下载好adb和fastboot[驱动](http://pan.baidu.com/s/1i376T5z)，解压到指定目录下

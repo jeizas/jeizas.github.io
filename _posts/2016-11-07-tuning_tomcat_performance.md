@@ -2,7 +2,7 @@
 layout: post
 title: "tomcat性能调优"
 date: 2016-11-07 21:38
-categories: [linux]
+categories: [skill]
 tags: tools
 ---
 

@@ -2,7 +2,7 @@
 layout: post
 title: "高性能MySQL之点滴收获"
 date: 2017-09-10 23:32
-categories: [mysql]
+categories: [skill]
 tags: mysql
 ---
 

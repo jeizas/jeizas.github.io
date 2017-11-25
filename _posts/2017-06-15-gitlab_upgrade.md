@@ -2,7 +2,7 @@
 layout: post
 title: "gitlab升级之路"
 date: 2017-06-15 23:10
-categories: [linux]
+categories: [skill]
 tags: linux
 ---
 
@@ -60,7 +60,7 @@ tags: linux
 #### 更新gitlab的nginx配置
 
 + 更新nginx的配置文件
-	
+
 	```shell
 	cp lib/support/nginx/gitlab /etc/nginx/conf.d/gitlab.conf
 	```
@@ -84,7 +84,7 @@ tags: linux
 	```
 
 + 更新gitlab-shell配置文件
-	
+
 	```shell
 	cd /usr/local/git/gitlab-shell/ cp config.yml.example config.yml
 	```
@@ -92,13 +92,12 @@ tags: linux
 ### 检测
 
 + 监测gitlab相关模块（主要是监测ruby、git等版本和状态）
-	
+
 	```shell
 	bundle exec rake gitlab:env:info RAILS_ENV=production
 	```
 + 监测所有模块是否正常,如果监测失败，会有相应的提示
-	
+
 	```shell
 	bundle exec rake gitlab:check RAILS_ENV=production
 	```
-	

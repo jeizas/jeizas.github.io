@@ -2,7 +2,7 @@
 layout: post
 title: "java图片处理工具类"
 date: 2016-08-21 22:28
-categories: [java]
+categories: [skill]
 tags: java
 ---
 

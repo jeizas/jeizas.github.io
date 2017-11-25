@@ -2,7 +2,7 @@
 layout: post
 title: "Java编程思想 - 第三章、操作符"
 date: 2016-04-17 00:11
-categories: [java]
+categories: [skill]
 tags: [Java编程思想]
 ---
 

@@ -2,8 +2,8 @@
 layout: post
 title: "二叉排序树"
 date: 2017-04-20 23:05
-categories: [algorithm]
-tags: 算法
+categories: [skill]
+tags: algorithm
 ---
 
 ### 要点

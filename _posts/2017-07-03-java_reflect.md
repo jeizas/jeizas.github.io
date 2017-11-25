@@ -2,7 +2,7 @@
 layout: post
 title: "java 反射"
 date: 2017-07-03 23:45
-categories: [java]
+categories: [skill]
 tags: java
 ---
 
@@ -38,10 +38,10 @@ Class class = Class.forName(className);
 {% highlight java linenos %}
 // -- 获得使用特殊的参数类型的公共构造函数
 Constructor getConstructor(Class[] params)
-// -- 获得类的所有公共构造函数 
+// -- 获得类的所有公共构造函数
 Constructor[] getConstructors()
-// -- 获得使用特定参数类型的构造函数(与接入级别无关) 
-Constructor getDeclaredConstructor(Class[] params) 
+// -- 获得使用特定参数类型的构造函数(与接入级别无关)
+Constructor getDeclaredConstructor(Class[] params)
 // -- 获得类的所有构造函数(与接入级别无关)
 Constructor[] getDeclaredConstructors()
 {% endhighlight java %}
@@ -51,11 +51,11 @@ Constructor[] getDeclaredConstructors()
 > 类的属性对象
 
 {% highlight java linenos %}
-// -- 获得命名的公共字段 
+// -- 获得命名的公共字段
 Field getField(String name)
 // -- 获得类的所有公共字段  
 Field[] getFields()
-// -- 获得类声明的命名的字段 
+// -- 获得类声明的命名的字段
 Field getDeclaredField(String name)
 // -- 获得类声明的所有字段
 Field[] getDeclaredFields()
@@ -66,11 +66,11 @@ Field[] getDeclaredFields()
 > 获取类的方法信息
 
 {% highlight java linenos %}
-// -- 使用特定的参数类型，获得命名的公共方法 
+// -- 使用特定的参数类型，获得命名的公共方法
 Method getMethod(String name, Class[] params)
-// -- 获得类的所有公共方法 
+// -- 获得类的所有公共方法
 Method[] getMethods()
-// -- 使用特写的参数类型，获得类声明的命名的方法 
+// -- 使用特写的参数类型，获得类声明的命名的方法
 Method getDeclaredMethod(String name, Class[] params)
 // -- 获得类声明的所有方法
 Method[] getDeclaredMethods()

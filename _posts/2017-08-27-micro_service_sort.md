@@ -2,7 +2,7 @@
 layout: post
 title: "微服务整理"
 date: 2017-08-27 10:00
-categories: [java]
+categories: [skill]
 tags: java
 ---
 

@@ -2,7 +2,7 @@
 layout: post
 title: "Markdown学习笔记"
 date: 2016-03-27 20:20
-categories: [markdown]
+categories: [skill]
 tags: [tools]
 ---
 #### 一、Submit Text2中Markdown的安装
@@ -11,9 +11,9 @@ tags: [tools]
    * 按Ctrl+\` 打开console
    * 粘贴下面的代码到console并回车
    * 重启Sublime Text2.
-   
+
    > import urllib2,os;pf='Package Control.sublime-package';ipp=sublime.installed_packages_path();os.makedirs(ipp) if not os.path.exists(ipp) else None;open(os.path.join(ipp,pf),'wb').write(urllib2.urlopen('http://sublime.wbond.net/'+pf.replace(' ','%20')).read())
-   
+
 2. 安装Markdown Preview
    * 按Ctrl + Shift + P
    * 输入pci 后回车(Package Control: Install Package)
@@ -52,7 +52,7 @@ tags: [tools]
    > 一个惊叹号！
    > 接着一个方括号,里面放上图片的替代文字
    > 接着一个普通括号，里面放上图片的网址，最后还可以用引号包住并加上选择性的’title’文字.
-* **链接**: 
+* **链接**:
    > This is [an example](http://example.com/ "Title") inline link.
    > 如果你是要链接到同样主机的资源，你可以使用相对路径：
    > See my [About](/about/) page for details.

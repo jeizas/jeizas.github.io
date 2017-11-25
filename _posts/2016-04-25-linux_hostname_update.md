@@ -2,7 +2,7 @@
 layout: post
 title: "阿里云主机名 修改"
 date: 2016-04-25 13:20
-categories: [linux]
+categories: [skill]
 tags: [tools]
 ---
 #### 一、修改主机名

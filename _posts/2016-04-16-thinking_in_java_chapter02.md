@@ -2,7 +2,7 @@
 layout: post
 title: "Java编程思想 - 第二章、一切都是对象"
 date: 2016-04-16 10:12
-categories: [java]
+categories: [skill]
 tags: [Java编程思想]
 ---
 
@@ -37,7 +37,7 @@ tags: [Java编程思想]
 
 * 所有的**数值类型**都有正负号。
 * 基本类型都有包装类，使得可以在对中创建一个给基本对象如下：
-	
+
 {% highlight java linenos %}
 	char c = 'x';
 	Character ch = new Character(c);
@@ -46,7 +46,7 @@ tags: [Java编程思想]
 {% endhighlight java %}
 
 * BigInteger 支持任意精度的整数；BigDecimal 支持精度的定点数。两者必须以方法调用的方法取代运算符方式来实现。
-	
+
 ### 5. java中的数组安全
 
 ### 6. gc：后面相谈
@@ -71,5 +71,3 @@ tags: [Java编程思想]
 * @Override：能用则用,只要是合法的，就把@Override注解给用上。
 * 捕获的异常：不能忽视
 * 静态成员：使用类进行调用
-
-

@@ -2,7 +2,7 @@
 layout: post
 title: "git常用命令总结"
 date: 2017-09-15 00:05
-categories: [linux]
+categories: [skill]
 tags: linux
 ---
 
@@ -43,7 +43,7 @@ git pull [branch-a] == git fetch + git merge
 //拉取远程分支a，在当前分支基础上把远程交叉节点之后的提交依次转移到当前分支（提交曲线更平滑）
 git pull --rebase [branch-a] == git fetch + git rebase
 {% endhighlight java%}
-	
+
 #### 3.2 本地git库
 
 {% highlight java linenos %}
@@ -52,7 +52,7 @@ git fetch
 //更新本地git库，删除本地git库在远程已经删除的分支
 git fetch -p
 {% endhighlight java %}
-	
+
 #### 3.3 设置忽略文件
 
 > 当多人协作的时候，一些自己个性化的本地配置或者IDE产生的一些不必好的配置文件等，我们不希望提交到代码库中影响他人的使用或影响代码库的整洁，这个时候就需要一个东西来描述那些不可提交的文件列表，因此git官方给出了解决方法，通过添加.gitignore文件，来编写一定的规则去忽略那些不可提交的文件。

@@ -2,7 +2,7 @@
 layout: post
 title: "JRebel热部署插件在IDEA中的使用"
 date: 2017-11-15 23:20
-categories: [java]
+categories: [skill]
 tags: tools
 ---
 

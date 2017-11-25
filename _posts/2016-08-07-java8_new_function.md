@@ -2,7 +2,7 @@
 layout: post
 title: "Java8新特性详解"
 date: 2016-08-07 23:48
-categories: [java]
+categories: [skill]
 tags: java
 ---
 
@@ -64,9 +64,9 @@ package functionalIngerface;
  */
 @FunctionalInterface
 public interface TestInterface<I, O> {
-	
+
 	public O toInteger(I i);//java接口public、abstract、static
-	
+
 	default void defultMethod(){
 		System.out.println("default method...");
 	}
@@ -75,9 +75,9 @@ public interface TestInterface<I, O> {
 package functionalIngerface;
 
 public class Test {
-	
+
 	static TestInterface<String, Integer> convert = (x) -> {return Integer.valueOf(x);};
-	
+
 	public static void main(String[] args){
 		Integer intVal = convert.toInteger("2");//函数式接口中的方法
 		convert.defultMethod();//默认方法
@@ -108,23 +108,23 @@ public class Test {
 
 {% highlight java linenos %}
 public class Lamdba {
-	
+
 	static Function<String, Integer> toInteger = (x)-> Integer.valueOf(x);
 	static Predicate<String> isNull = (x) ->  x == null;
 	static Supplier<String> testSupplier = () -> new String("supplier");
 	static Consumer<String> greeter = (s) -> System.out.println("Hello, " + s);
 //	static Optional<String> optional = Optional.of("abcdefg");
-	
+
 	public static void main(String[] args){
 		System.out.println(toInteger.apply("2"));
 		System.out.println(isNull.test(null));
 		System.out.println(testSupplier.get());
 		greeter.accept("consumer");
-		
+
 		List<String> strs = Arrays.asList("a", "c", "e", "f");
 		Collections.sort(strs, (s1, s2) -> s2.compareTo(s1));
 		strs.stream().forEach(System.out::print);
-		
+
 		Optional.of("abcdefg").ifPresent((s) -> System.out.println("\n" + s.charAt(0)));
 	}
 }

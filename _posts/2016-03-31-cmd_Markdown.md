@@ -2,7 +2,7 @@
 layout: post
 title: "Cmd Markdown"
 date: 2016-03-31 00:12
-categories: [markdown]
+categories: [skill]
 tags: [tools]
 ---
 
@@ -180,4 +180,3 @@ Bob-->Alice: I am good thanks!
 [2]: https://www.zybuluo.com/mdeditor?url=https://www.zybuluo.com/static/editor/md-help.markdown#cmd-markdown-高阶语法手册
 [3]: http://weibo.com/ghosert
 [4]: http://meta.math.stackexchange.com/questions/5020/mathjax-basic-tutorial-and-quick-reference
-

@@ -2,7 +2,7 @@
 layout: post
 title: "vim 常用命令总结"
 date: 2016-11-06 20:10
-categories: [linux]
+categories: [skill]
 tags: tools
 ---
 

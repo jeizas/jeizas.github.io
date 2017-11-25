@@ -2,7 +2,7 @@
 layout: post
 title: "Java编程思想 - 第十四章、类型信息"
 date: 2016-05-14 20:04
-categories: [java]
+categories: [skill]
 tags: [Java编程思想]
 ---
 
@@ -64,11 +64,11 @@ package Chapter14;
 import java.util.*;
 
 /**
- * 
+ *
  * @author niushuai
  *
  * 这段程序说明的东西太多了。。。。。每个输出的顺序都是理解这个问题的的关键：
- * 
+ *
  * 1. 动态加载
  * 2. Lazy机制（还记得线段树的Lazy操作吗- -）
  * 3. 初始化和加载的关系
@@ -109,7 +109,7 @@ public class ClassInitialization {
 		System.out.println(Initable.staticFinal);
 		//下面调用非编译期确定的static数据，Initable才被初始化
 		System.out.println(Initable.staticFinal2);
-		
+
 		//调用Initable2的static数据，被加载并且初始化
 		System.out.println(Initable2.staticNonFinal);
 		try {
@@ -150,54 +150,54 @@ After creating Initable3 ref
 {% highlight java linenos %}
 package chapter14;
 
-import java.lang.reflect.Constructor; 
-import java.lang.reflect.Method; 
+import java.lang.reflect.Constructor;
+import java.lang.reflect.Method;
 import java.util.regex.Pattern;
 
-public class ShowMethods { 
-	private static String usage = "usage:\n" + 
-			"ShowMethods qualified.class.name\n" + 
-			"To show all methods in class or:\n" + 
-			"ShowMethods qualified.class.name word\n" + 
-			"To search for methods involving 'word'"; 
-	private static Pattern p = Pattern.compile("\\w+\\."); 
-	
-	public static void main(String[] args) { 
-		if(args.length < 1) { 
-			System.out.println(usage); 
-			System.exit(0); 
-		} 
-		int lines = 0; 
-		try { 
-			Class<?> c = Class.forName(args[0]); 
-			Method[] methods = c.getMethods(); 
-			Constructor[] ctors = c.getConstructors(); 
-			if(args.length == 1) { 
-				for(Method method : methods) { 
-					System.out.println(p.matcher(method.toString()).replaceAll("")); 
-					System.out.println("#" + method.toString()); 
-				} 
-				for(Constructor ctor : ctors) { 
-					System.out.println(p.matcher(ctor.toString()).replaceAll("")); 
-				} 
-			} else { 
-				for(Method method : methods) { 
-					if(method.toString().indexOf(args[1]) != -1) { 
-						System.out.println(p.matcher(method.toString()).replaceAll("")); lines++; 
-						} 
-					} 
-				for(Constructor ctor : ctors) { 
-					if(ctor.toString().indexOf(args[1]) != -1) { 
-						System.out.println(p.matcher(ctor.toString()).replaceAll("")); lines++; 
-					} 
-				} 
-			} 
-			
-		} catch(ClassNotFoundException e) { 
-			System.out.println("No such class: " + e); 
-		} 
+public class ShowMethods {
+	private static String usage = "usage:\n" +
+			"ShowMethods qualified.class.name\n" +
+			"To show all methods in class or:\n" +
+			"ShowMethods qualified.class.name word\n" +
+			"To search for methods involving 'word'";
+	private static Pattern p = Pattern.compile("\\w+\\.");
+
+	public static void main(String[] args) {
+		if(args.length < 1) {
+			System.out.println(usage);
+			System.exit(0);
+		}
+		int lines = 0;
+		try {
+			Class<?> c = Class.forName(args[0]);
+			Method[] methods = c.getMethods();
+			Constructor[] ctors = c.getConstructors();
+			if(args.length == 1) {
+				for(Method method : methods) {
+					System.out.println(p.matcher(method.toString()).replaceAll(""));
+					System.out.println("#" + method.toString());
+				}
+				for(Constructor ctor : ctors) {
+					System.out.println(p.matcher(ctor.toString()).replaceAll(""));
+				}
+			} else {
+				for(Method method : methods) {
+					if(method.toString().indexOf(args[1]) != -1) {
+						System.out.println(p.matcher(method.toString()).replaceAll("")); lines++;
+						}
+					}
+				for(Constructor ctor : ctors) {
+					if(ctor.toString().indexOf(args[1]) != -1) {
+						System.out.println(p.matcher(ctor.toString()).replaceAll("")); lines++;
+					}
+				}
+			}
+
+		} catch(ClassNotFoundException e) {
+			System.out.println("No such class: " + e);
+		}
 	}
-	
+
 }
 {% endhighlight linenos %}
 
@@ -210,15 +210,15 @@ import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Method;
 
 public class InvokeTest {
-	
+
 	public int add(int param1, int param2){
 		return param1 +  param2;
 	}
-	
+
 	public String echo(String str){
 		return str;
 	}
-	
+
 	public static void main(String[] args) throws InstantiationException, IllegalAccessException, NoSuchMethodException, SecurityException, IllegalArgumentException, InvocationTargetException{
 		Class<InvokeTest> classType = InvokeTest.class;
 		Object invokeTest = classType.newInstance();
@@ -226,7 +226,7 @@ public class InvokeTest {
 				int.class});
 		Object result = addMethod.invoke(invokeTest, new Object[] {1, new Integer(10)});
 		System.out.println(result);
-		
+
 		Method echoMethod = classType.getMethod("echo",new Class[]{String.class});
 		Object result2 = echoMethod.invoke(invokeTest, new Object[]{"jeizas"});
 		System.out.println(result2);
@@ -235,4 +235,3 @@ public class InvokeTest {
 {% endhighlight linenos %}
 
 * 未完待续。。。
-

@@ -2,7 +2,7 @@
 layout: post
 title: "苦咖啡"
 date: 2017-06-12 02:10
-categories: [summary]
+categories: [life]
 tags: thinking
 ---
 

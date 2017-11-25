@@ -2,7 +2,7 @@
 layout: post
 title: "java 多线程总结"
 date: 2017-05-23 01:26
-categories: [java]
+categories: [skill]
 tags: java
 ---
 

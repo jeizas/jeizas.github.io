@@ -2,7 +2,7 @@
 layout: post
 title: "spring ioc所想"
 date: 2017-06-18 23:12
-categories: [java]
+categories: [skill]
 tags: spring
 ---
 

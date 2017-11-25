@@ -2,7 +2,7 @@
 layout: post
 title: "Java编程思想 - 第五章、初始化与清理"
 date: 2016-05-05 09:34
-categories: [java]
+categories: [skill]
 tags: [Java编程思想]
 ---
 
@@ -68,4 +68,3 @@ public class InitOrder{
 
 * 垃圾回收的唯一原因：为了回收JVM中程序不再使用的内存。所以对于垃圾回收有关的任何行为来说（尤其是finalize（）方法），他们必须同内存及其回收有关。
 * 垃圾回收的方式：标记-清扫、停止-复制
-

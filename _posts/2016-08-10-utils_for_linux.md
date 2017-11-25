@@ -2,7 +2,7 @@
 layout: post
 title: "Linux工具"
 date: 2016-08-10 23:48
-categories: [linux]
+categories: [skill]
 tags: shadowsocks
 ---
 

@@ -2,7 +2,7 @@
 layout: post
 title: "Java编程思想 - 第四章、控制执行流程"
 date: 2016-05-04 14:14
-categories: [java]
+categories: [skill]
 tags: [Java编程思想]
 ---
 

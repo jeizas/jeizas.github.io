@@ -2,7 +2,7 @@
 layout: post
 title: "2016年终总结"
 date: 2016-12-24 18:18
-categories: [summary]
+categories: [life]
 tags: thinking
 ---
 

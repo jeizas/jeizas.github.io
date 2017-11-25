@@ -2,7 +2,7 @@
 layout: post
 title: "python学习"
 date: 2017-10-31 22:15
-categories: [python]
+categories: [skill]
 tags: python
 ---
 

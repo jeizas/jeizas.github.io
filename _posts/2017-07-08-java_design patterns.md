@@ -2,7 +2,7 @@
 layout: post
 title: "java 常用的设计模式"
 date: 2017-07-08 02:48
-categories: [java]
+categories: [skill]
 tags: java
 ---
 
@@ -16,25 +16,25 @@ tags: java
 
 ##### 1.Open Close Principle
 &emsp;&emsp;**开闭原则**说的是对拓展开放，对修改关闭。我的理解是，在业务需求改变的时候，尽量通过拓展类或者接口的方式去实现变化，而不是修改原来的代码。
-	
+
 ##### 2.Liskov Substitution Principle
 &emsp;&emsp;**里氏替换原则**是说任何基类出现的地方，子类一定可以出现。也就是说在代码中任何子类可以替代基类，而应用程序的功能不受到影响。
-	
+
 ##### 3.Dependence Inversion Principle
 &emsp;&emsp;**依赖倒置原则**是说针对于接口编程，依赖于抽象而不依赖于具体实现。
-	
+
 ##### 4.Interface Segregation Principle
 &emsp;&emsp;**接口隔离原则**时说，实现多个隔离的接口而不是使用单一接口，降低接口之间的耦合度。
-	
+
 ##### 5.Demeter principle
 &emsp;&emsp;**迪米特原则**又叫最少知道原则，一个类应该尽量少的提供public方法，使其功能模块相对独立。
-	
+
 ##### 6.Composite Reuse Principle
 &emsp;&emsp;**合成等复用原则**告诉我们尽量使用合成/聚合的方式，而不是使用继承。这里说一下为什么不使用继承的原因：
 
 - 继承回破换包装，会把父类的实现细节直接暴露给子类，违反了信息隐藏的原则。
 - 继承中父类和子类的耦合度很高，如果父类发生了改变，子类也要作出相应的改变。
-	
+
 ### 常用的设计模式
 
 ##### 1.创建型模式

@@ -2,7 +2,7 @@
 layout: post
 title: "archlinux 安装中遇到的问题"
 date: 2016-04-26 00:20
-categories: [linux]
+categories: [skill]
 tags: [tools]
 ---
 
