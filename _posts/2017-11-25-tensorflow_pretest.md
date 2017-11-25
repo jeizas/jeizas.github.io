@@ -9,7 +9,8 @@ tags: AI
 ### 周末
 
 > 周末 一半摄影 一半代码
-![](media/img/20171125/home_learn.jpeg)
+
+![](/media/img/20171125/home_learn.jpeg)
 
 ### 初探 TensorFlow
 
