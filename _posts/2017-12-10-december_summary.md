@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "展望未来"
+title: "心态很重要"
 date: 2017-12-10 20:16
 categories: [life]
 tags: life
