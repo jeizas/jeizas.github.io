@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "心态很重要"
+title: "心态"
 date: 2017-12-10 20:16
 categories: [life]
 tags: life
