@@ -3,7 +3,7 @@ layout: post
 title: "我的喔图之路"
 date: 2017-07-22 16:33
 categories: [life]
-tags: thinking
+tags: life
 ---
 
 ### 我的喔图之路
