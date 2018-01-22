@@ -10,4 +10,6 @@ tags: life
 
 > 初遇 楚楚动人
 
+![](../media/img/20180122/flower.jpg)
+
 &emsp;&emsp;待补...
