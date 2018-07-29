@@ -38,7 +38,7 @@ tags: life
 	- StateMachineListener 跟踪状态转移
 	- StateChangeInterceptor 改变状态转移链的变化
 
-	```java
+	{% highlight java linenos %}
 	stateMachine.stop();
 	        stateMachine.getStateMachineAccessor()
 	                .doWithAllRegions(access -> access.resetStateMachine(
@@ -46,23 +46,24 @@ tags: life
 	        stateMachine.start ();
 	        boolean sendEvent = stateMachine.sendEvent(event);
 	
-	```
+	{% endhighlight %}
 
 * 工厂
 
 	- 获取stateMachine
 	
-	```java
+	{% highlight java linenos %}
 	public StateMachine<S, E> create(String machineId) {
 	        StateMachine<S, E> stateMachine = stateMachineFactory.getStateMachine(machineId);
 	        stateMachine.start();
 	        return stateMachine;
 	    }
-	```
-
+	{% endhighlight %}
+	
 	- 事件监听目前还未demo
 	
 ### 资料
 - [状态机引擎选型](https://segmentfault.com/a/1190000009906317)
 - [状态机选型简记](http://childe.net.cn/2018/04/28/%E7%8A%B6%E6%80%81%E6%9C%BA%E9%80%89%E5%9E%8B%E7%AE%80%E8%AE%B0/)
 - [基于注解的实现](https://www.codetd.com/article/1010726)
+- [理解状态机](https://glumes.com/post/android/understand-state-machine/)
