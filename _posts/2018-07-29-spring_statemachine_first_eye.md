@@ -37,7 +37,6 @@ tags: life
 
 	- StateMachineListener 跟踪状态转移
 	- StateChangeInterceptor 改变状态转移链的变化
-	
 {% highlight java linenos %}
 stateMachine.stop();
         stateMachine.getStateMachineAccessor()
@@ -50,7 +49,6 @@ stateMachine.stop();
 * 工厂
 
 	- 获取stateMachine
-	
 {% highlight java linenos %}
 public StateMachine<S, E> create(String machineId) {
         StateMachine<S, E> stateMachine = stateMachineFactory.getStateMachine(machineId);
@@ -58,7 +56,6 @@ public StateMachine<S, E> create(String machineId) {
         return stateMachine;
     }
 {% endhighlight %}
-	
 	- 事件监听目前还未demo
 	
 ### 资料
