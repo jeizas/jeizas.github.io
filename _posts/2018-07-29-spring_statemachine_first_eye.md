@@ -63,6 +63,6 @@ tags: life
 	- 事件监听目前还未demo
 	
 ### 资料
-[状态机引擎选型](https://segmentfault.com/a/1190000009906317)
-[状态机选型简记](http://childe.net.cn/2018/04/28/%E7%8A%B6%E6%80%81%E6%9C%BA%E9%80%89%E5%9E%8B%E7%AE%80%E8%AE%B0/)
-[基于注解的实现](https://www.codetd.com/article/1010726)
+- [状态机引擎选型](https://segmentfault.com/a/1190000009906317)
+- [状态机选型简记](http://childe.net.cn/2018/04/28/%E7%8A%B6%E6%80%81%E6%9C%BA%E9%80%89%E5%9E%8B%E7%AE%80%E8%AE%B0/)
+- [基于注解的实现](https://www.codetd.com/article/1010726)
