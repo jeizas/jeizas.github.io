@@ -37,25 +37,27 @@ tags: life
 
 	- StateMachineListener 跟踪状态转移
 	- StateChangeInterceptor 改变状态转移链的变化
-{% highlight java linenos %}
-stateMachine.stop();
-        stateMachine.getStateMachineAccessor()
-                .doWithAllRegions(access -> access.resetStateMachine(
-                        new DefaultStateMachineContext<States, Events> (sourceState, null, null, extendedState)));
-        stateMachine.start ();
-        boolean sendEvent = stateMachine.sendEvent(event);
-{% endhighlight %}
+		{% highlight java linenos %}
+		stateMachine.stop();
+		        stateMachine.getStateMachineAccessor()
+		                .doWithAllRegions(access -> access.resetStateMachine(
+		                        new DefaultStateMachineContext<States, Events> (sourceState, null, null, extendedState)));
+		        stateMachine.start ();
+		        boolean sendEvent = stateMachine.sendEvent(event);
+		{% endhighlight %}
 
 * 工厂
 
 	- 获取stateMachine
-{% highlight java linenos %}
-public StateMachine<S, E> create(String machineId) {
-        StateMachine<S, E> stateMachine = stateMachineFactory.getStateMachine(machineId);
-        stateMachine.start();
-        return stateMachine;
-    }
-{% endhighlight %}
+	
+		{% highlight java linenos %}
+		public StateMachine<S, E> create(String machineId) {
+		        StateMachine<S, E> stateMachine = stateMachineFactory.getStateMachine(machineId);
+		        stateMachine.start();
+		        return stateMachine;
+		    }
+		{% endhighlight %}
+		
 	- 事件监听目前还未demo
 	
 ### 资料
