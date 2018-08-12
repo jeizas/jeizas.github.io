@@ -1,9 +1,16 @@
-<!--PC和WAP自适应版-->
-<div id="SOHUCS" sid="{{ post.title }}" ></div> 
-<script type="text/javascript"> 
-(function(){ 
-var appid = 'cytcY89qh'; 
-var conf = 'prod_2ab4ad0ce7f05ebd35c0a8e65b54d583'; 
-var width = window.innerWidth || document.documentElement.clientWidth; 
-if (width < 960) { 
-window.document.write('<script id="changyan_mobile_js" charset="utf-8" type="text/javascript" src="https://changyan.sohu.com/upload/mobile/wap-js/changyan_mobile.js?client_id=' + appid + '&conf=' + conf + '"><\/script>'); } else { var loadJs=function(d,a){var c=document.getElementsByTagName("head")[0]||document.head||document.documentElement;var b=document.createElement("script");b.setAttribute("type","text/javascript");b.setAttribute("charset","UTF-8");b.setAttribute("src",d);if(typeof a==="function"){if(window.attachEvent){b.onreadystatechange=function(){var e=b.readyState;if(e==="loaded"||e==="complete"){b.onreadystatechange=null;a()}}}else{b.onload=a}}c.appendChild(b)};loadJs("https://changyan.sohu.com/upload/changyan.js",function(){window.changyan.api.config({appid:appid,conf:conf})}); } })(); </script>
+<div id="hypercomments_widget"></div>
+<script type="text/javascript">
+  _hcwp = window._hcwp || [];
+  _hcwp.push({widget:"Stream", widget_id: 98108});
+  (function() {
+  if("HC_LOAD_INIT" in window)return;
+  HC_LOAD_INIT = true;
+  var lang = (navigator.language || navigator.systemLanguage || navigator.userLanguage || "en").substr(0, 2).toLowerCase();
+  var hcc = document.createElement("script"); hcc.type = "text/javascript"; hcc.async = true;
+  hcc.src = ("https:" == document.location.protocol ? "https" : "http")+"://w.hypercomments.com/widget/hc/98108/"+lang+"/widget.js";
+  var s = document.getElementsByTagName("script")[0];
+  s.parentNode.insertBefore(hcc, s.nextSibling);
+  })();
+</script>
+<a href="http://hypercomments.com" rel = "nofollow" class="hc-link" title="comments widget">comments powered by HyperComments</a>
+
