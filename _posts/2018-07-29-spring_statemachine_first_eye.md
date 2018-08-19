@@ -2,8 +2,8 @@
 layout: post
 title: "spring-statemachine 初探"
 date: 2018-07-29 23:35
-categories: [life]
-tags: life
+categories: [skill]
+tags: java
 ---
 
 ### spring-statemachine 初探
