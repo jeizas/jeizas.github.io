@@ -19,3 +19,6 @@ tags: java
 
 - [响应式编程（上）：总览](https://juejin.im/entry/5a0ac2215188252abc5de24f)
 
+- [Reactor 指南中文版V2.0](http://projectreactor.mydoc.io/?t=45203)
+- [中文翻译文档地址](http://htmlpreview.github.io/?https://github.com/get-set/reactor-core/blob/master-zh/src/docs/index.html)
+
