@@ -10,7 +10,7 @@
           repo: 'jeizas.github.io',
           owner: 'jeizas',
           admin: ['jeizas'],
-          id: 'window.location.pathname',
+          id: '{{ post.title }}',
           distractionFreeMode: true
         })
         gitalk.render('gitalk-container')           
