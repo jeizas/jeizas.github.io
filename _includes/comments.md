@@ -1,4 +1,5 @@
 <!-- gitalk -->
+<div id="gitalk-container"></div>
 <link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css">
 <script src="https://unpkg.com/gitalk/dist/gitalk.min.js"></script>
 
@@ -14,5 +15,4 @@
         })
         gitalk.render('gitalk-container')           
     </script>
-<div id="gitalk-container"></div>
 
