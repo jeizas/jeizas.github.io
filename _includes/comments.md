@@ -9,8 +9,10 @@
           repo: 'jeizas.github.io',
           owner: 'jeizas',
           admin: ['jeizas'],
-          id: 'window.location.pathname'
+          id: 'window.location.pathname',
+          distractionFreeMode: true
         })
         gitalk.render('gitalk-container')           
     </script>
+<div id="gitalk-container"></div>
 
