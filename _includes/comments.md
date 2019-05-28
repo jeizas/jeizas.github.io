@@ -1,17 +1,16 @@
-<!-- LiveRe City install code -->
-<div id="lv-container" data-id="city" data-uid="MTAyMC8zMTkxNy84NDgx">
-	<script type="text/javascript">
-   (function(d, s) {
-       var j, e = d.getElementsByTagName(s)[0];
+<!-- gitalk -->
+<link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css">
+<script src="https://unpkg.com/gitalk/dist/gitalk.min.js"></script>
 
-       if (typeof LivereTower === 'function') { return; }
+   <script type="text/javascript">
+        var gitalk = new Gitalk({
+          clientID: 'ea42f33cc56ca3882c6b',
+          clientSecret: '0342404b766f80d2c6e675235d44cf22538fe4e5',
+          repo: 'jeizas.github.io',
+          owner: 'jeizas',
+          admin: ['jeizas'],
+          id: 'window.location.pathname'
+        })
+        gitalk.render('gitalk-container')           
+    </script>
 
-       j = d.createElement(s);
-       j.src = 'https://cdn-city.livere.com/js/embed.dist.js';
-       j.async = true;
-
-       e.parentNode.insertBefore(j, e);
-   })(document, 'script');
-	</script>
-<noscript> Please activate JavaScript for write a comment in LiveRe</noscript>
-</div>
