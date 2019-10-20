@@ -5,8 +5,8 @@
 
    <script type="text/javascript">
         var gitalk = new Gitalk({
-          clientID: 'ea42f33cc56ca3882c6b',
-          clientSecret: '0342404b766f80d2c6e675235d44cf22538fe4e5',
+          clientID: '07829ee4fb4f0a6aa8c0',
+          clientSecret: '6e7b3dc7519350b4c9a5f2f7951eebd6a9775b68',
           repo: 'jeizas.github.io',
           owner: 'jeizas',
           admin: ['jeizas'],
