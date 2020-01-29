@@ -6,309 +6,597 @@
             http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
 <!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
 
+
 <url>
-  <loc>http://www.jeizas.me/</loc>
-  <lastmod>2017-11-23T06:08:10+00:00</lastmod>
+  <loc>http://blog.jeizas.me/</loc>
+  <lastmod>2019-11-12T16:10:12+00:00</lastmod>
   <priority>1.00</priority>
 </url>
 <url>
-  <loc>http://www.jeizas.me/categories/</loc>
-  <lastmod>2017-11-23T06:08:10+00:00</lastmod>
+  <loc>http://blog.jeizas.me/categories/</loc>
+  <lastmod>2019-11-12T16:10:12+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://www.jeizas.me/tags/</loc>
-  <lastmod>2017-11-23T06:08:10+00:00</lastmod>
+  <loc>http://blog.jeizas.me/tags/</loc>
+  <lastmod>2019-11-12T16:10:12+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://www.jeizas.me/guestbook/</loc>
-  <lastmod>2017-11-23T06:08:10+00:00</lastmod>
+  <loc>http://blog.jeizas.me/guestbook/</loc>
+  <lastmod>2019-11-12T16:10:12+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://www.jeizas.me/about/</loc>
-  <lastmod>2017-11-23T06:08:10+00:00</lastmod>
+  <loc>http://blog.jeizas.me/about/</loc>
+  <lastmod>2019-11-12T16:10:12+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://www.jeizas.me/winter_thinking/</loc>
-  <lastmod>2017-11-23T06:08:10+00:00</lastmod>
+  <loc>http://blog.jeizas.me/%E7%BD%91%E6%98%93%E4%BA%91%E9%9F%B3%E4%B9%90%E8%AF%84%E8%AE%BA-%E6%83%B3%E6%AD%BB%E5%8D%B4%E5%8F%88%E4%B8%8D%E6%95%A2-cover-%E7%BE%A4%E6%98%9F/</loc>
+  <lastmod>2019-11-12T16:10:12+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://www.jeizas.me/idea_jrebel/</loc>
-  <lastmod>2017-11-23T06:08:10+00:00</lastmod>
+  <loc>http://blog.jeizas.me/%E5%8E%9F%E5%88%99/</loc>
+  <lastmod>2019-11-12T16:10:12+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://www.jeizas.me/python_start/</loc>
-  <lastmod>2017-11-23T06:08:10+00:00</lastmod>
+  <loc>http://blog.jeizas.me/%E6%97%A5%E5%AD%90/</loc>
+  <lastmod>2019-11-12T16:10:12+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://www.jeizas.me/git_command/</loc>
-  <lastmod>2017-11-23T06:08:10+00:00</lastmod>
+  <loc>http://blog.jeizas.me/%E8%AE%A1%E5%88%92/</loc>
+  <lastmod>2019-11-12T16:10:12+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://www.jeizas.me/high_performance_mysql/</loc>
-  <lastmod>2017-11-23T06:08:10+00:00</lastmod>
+  <loc>http://blog.jeizas.me/%E5%85%B3%E4%BA%8E%E4%BA%BA%E7%94%9F%E7%9A%84%E6%80%9D%E8%80%83/</loc>
+  <lastmod>2019-11-12T16:10:12+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://www.jeizas.me/blockchain_thinking/</loc>
-  <lastmod>2017-11-23T06:08:10+00:00</lastmod>
+  <loc>http://blog.jeizas.me/%E7%9A%AE%E5%9B%8A%E7%BB%8F%E5%8F%A5/</loc>
+  <lastmod>2019-11-12T16:10:12+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://www.jeizas.me/micro_service_sort/</loc>
-  <lastmod>2017-11-23T06:08:10+00:00</lastmod>
+  <loc>http://blog.jeizas.me/%E4%BA%BA%E9%97%B4%E5%A4%B1%E6%A0%BC/</loc>
+  <lastmod>2019-11-12T16:10:12+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://www.jeizas.me/August_first_thinking/</loc>
-  <lastmod>2017-11-23T06:08:10+00:00</lastmod>
+  <loc>http://blog.jeizas.me/cloud_pass/</loc>
+  <lastmod>2019-11-12T16:10:12+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://www.jeizas.me/alltuu_thinking/</loc>
-  <lastmod>2017-11-23T06:08:10+00:00</lastmod>
+  <loc>http://blog.jeizas.me/code_and_photo/</loc>
+  <lastmod>2019-11-12T16:10:12+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://www.jeizas.me/java_design-patterns/</loc>
-  <lastmod>2017-11-23T06:08:10+00:00</lastmod>
+  <loc>http://blog.jeizas.me/springboot_run/</loc>
+  <lastmod>2019-11-12T16:10:12+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://www.jeizas.me/java_reflect/</loc>
-  <lastmod>2017-11-23T06:08:10+00:00</lastmod>
+  <loc>http://blog.jeizas.me/dream_night/</loc>
+  <lastmod>2019-11-12T16:10:12+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://www.jeizas.me/java_io/</loc>
-  <lastmod>2017-11-23T06:08:10+00:00</lastmod>
+  <loc>http://blog.jeizas.me/what/</loc>
+  <lastmod>2019-11-12T16:10:12+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://www.jeizas.me/spring_ioc/</loc>
-  <lastmod>2017-11-23T06:08:10+00:00</lastmod>
+  <loc>http://blog.jeizas.me/a_letter_to_thirty/</loc>
+  <lastmod>2019-11-12T16:10:12+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://www.jeizas.me/gitlab_upgrade/</loc>
-  <lastmod>2017-11-23T06:08:10+00:00</lastmod>
+  <loc>http://blog.jeizas.me/night/</loc>
+  <lastmod>2019-11-12T16:10:12+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://www.jeizas.me/coffee&amp;life_/</loc>
-  <lastmod>2017-11-23T06:08:10+00:00</lastmod>
+  <loc>http://blog.jeizas.me/sunshine_boy/</loc>
+  <lastmod>2019-11-12T16:10:12+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://www.jeizas.me/java_collections_summary/</loc>
-  <lastmod>2017-11-23T06:08:10+00:00</lastmod>
+  <loc>http://blog.jeizas.me/Plan_revision/</loc>
+  <lastmod>2019-11-12T16:10:12+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://www.jeizas.me/java_thread_summary/</loc>
-  <lastmod>2017-11-23T06:08:10+00:00</lastmod>
+  <loc>http://blog.jeizas.me/todo_list/</loc>
+  <lastmod>2019-11-12T16:10:12+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://www.jeizas.me/java_io_summary/</loc>
-  <lastmod>2017-11-23T06:08:10+00:00</lastmod>
+  <loc>http://blog.jeizas.me/spirngboot_mongoDB/</loc>
+  <lastmod>2019-11-12T16:10:12+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://www.jeizas.me/binary_sort_tree/</loc>
-  <lastmod>2017-11-23T06:08:10+00:00</lastmod>
+  <loc>http://blog.jeizas.me/2018_review/</loc>
+  <lastmod>2019-11-12T16:10:12+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://www.jeizas.me/vagrant/</loc>
-  <lastmod>2017-11-23T06:08:10+00:00</lastmod>
+  <loc>http://blog.jeizas.me/from_mind/</loc>
+  <lastmod>2019-11-12T16:10:12+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://www.jeizas.me/page2/</loc>
-  <lastmod>2017-11-23T06:08:10+00:00</lastmod>
+  <loc>http://blog.jeizas.me/page2/</loc>
+  <lastmod>2019-11-12T16:10:12+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://www.jeizas.me/page3/</loc>
-  <lastmod>2017-11-23T06:08:10+00:00</lastmod>
+  <loc>http://blog.jeizas.me/page3/</loc>
+  <lastmod>2019-11-12T16:10:12+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://www.jeizas.me/websocket/</loc>
-  <lastmod>2017-11-23T06:08:10+00:00</lastmod>
+  <loc>http://blog.jeizas.me/page4/</loc>
+  <lastmod>2019-11-12T16:10:12+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://blog.jeizas.me/page5/</loc>
+  <lastmod>2019-11-12T16:10:12+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://blog.jeizas.me/page6/</loc>
+  <lastmod>2019-11-12T16:10:12+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://blog.jeizas.me/netty/</loc>
+  <lastmod>2019-11-12T16:10:12+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>http://www.jeizas.me/cmd_Markdown/</loc>
-  <lastmod>2017-11-23T06:08:10+00:00</lastmod>
+  <loc>http://blog.jeizas.me/socket/</loc>
+  <lastmod>2019-11-12T16:10:12+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>http://www.jeizas.me/markdown_note/</loc>
-  <lastmod>2017-11-23T06:08:10+00:00</lastmod>
+  <loc>http://blog.jeizas.me/spring_reactor/</loc>
+  <lastmod>2019-11-12T16:10:12+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>http://www.jeizas.me/nexus6p_root/</loc>
-  <lastmod>2017-11-23T06:08:10+00:00</lastmod>
+  <loc>http://blog.jeizas.me/spring_statemachine_first_eye/</loc>
+  <lastmod>2019-11-12T16:10:12+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>http://www.jeizas.me/java_ImageIO/</loc>
-  <lastmod>2017-11-23T06:08:10+00:00</lastmod>
+  <loc>http://blog.jeizas.me/flag_2018/</loc>
+  <lastmod>2019-11-12T16:10:12+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>http://www.jeizas.me/mobile_scanQRcode_login/</loc>
-  <lastmod>2017-11-23T06:08:10+00:00</lastmod>
+  <loc>http://blog.jeizas.me/tensorflow_pretest/</loc>
+  <lastmod>2019-11-12T16:10:12+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>http://www.jeizas.me/java8_new_function/</loc>
-  <lastmod>2017-11-23T06:08:10+00:00</lastmod>
+  <loc>http://blog.jeizas.me/idea_jrebel/</loc>
+  <lastmod>2019-11-12T16:10:12+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>http://www.jeizas.me/thinking_in_java_chapter17/</loc>
-  <lastmod>2017-11-23T06:08:10+00:00</lastmod>
+  <loc>http://blog.jeizas.me/python_start/</loc>
+  <lastmod>2019-11-12T16:10:12+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>http://www.jeizas.me/thinking_in_java_chapter16/</loc>
-  <lastmod>2017-11-23T06:08:10+00:00</lastmod>
+  <loc>http://blog.jeizas.me/git_command/</loc>
+  <lastmod>2019-11-12T16:10:12+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>http://www.jeizas.me/thinking_in_java_chapter15/</loc>
-  <lastmod>2017-11-23T06:08:10+00:00</lastmod>
+  <loc>http://blog.jeizas.me/high_performance_mysql/</loc>
+  <lastmod>2019-11-12T16:10:12+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>http://www.jeizas.me/thinking_in_java_chapter14/</loc>
-  <lastmod>2017-11-23T06:08:10+00:00</lastmod>
+  <loc>http://blog.jeizas.me/blockchain_thinking/</loc>
+  <lastmod>2019-11-12T16:10:12+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>http://www.jeizas.me/thinking_in_java_chapter13/</loc>
-  <lastmod>2017-11-23T06:08:10+00:00</lastmod>
+  <loc>http://blog.jeizas.me/micro_service_sort/</loc>
+  <lastmod>2019-11-12T16:10:12+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>http://www.jeizas.me/thinking_in_java_chapter12/</loc>
-  <lastmod>2017-11-23T06:08:10+00:00</lastmod>
+  <loc>http://blog.jeizas.me/java_design-patterns/</loc>
+  <lastmod>2019-11-12T16:10:12+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>http://www.jeizas.me/thinking_in_java_chapter11/</loc>
-  <lastmod>2017-11-23T06:08:10+00:00</lastmod>
+  <loc>http://blog.jeizas.me/java_reflect/</loc>
+  <lastmod>2019-11-12T16:10:12+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>http://www.jeizas.me/thinking_in_java_chapter10/</loc>
-  <lastmod>2017-11-23T06:08:10+00:00</lastmod>
+  <loc>http://blog.jeizas.me/java_io/</loc>
+  <lastmod>2019-11-12T16:10:12+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>http://www.jeizas.me/thinking_in_java_chapter09/</loc>
-  <lastmod>2017-11-23T06:08:10+00:00</lastmod>
+  <loc>http://blog.jeizas.me/spring_ioc/</loc>
+  <lastmod>2019-11-12T16:10:12+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>http://www.jeizas.me/thinking_in_java_chapter08/</loc>
-  <lastmod>2017-11-23T06:08:10+00:00</lastmod>
+  <loc>http://blog.jeizas.me/gitlab_upgrade/</loc>
+  <lastmod>2019-11-12T16:10:12+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>http://www.jeizas.me/thinking_in_java_chapter07/</loc>
-  <lastmod>2017-11-23T06:08:10+00:00</lastmod>
+  <loc>http://blog.jeizas.me/java_collections_summary/</loc>
+  <lastmod>2019-11-12T16:10:12+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>http://www.jeizas.me/thinking_in_java_chapter06/</loc>
-  <lastmod>2017-11-23T06:08:10+00:00</lastmod>
+  <loc>http://blog.jeizas.me/java_thread_summary/</loc>
+  <lastmod>2019-11-12T16:10:12+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>http://www.jeizas.me/thinking_in_java_chapter05/</loc>
-  <lastmod>2017-11-23T06:08:10+00:00</lastmod>
+  <loc>http://blog.jeizas.me/java_io_summary/</loc>
+  <lastmod>2019-11-12T16:10:12+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>http://www.jeizas.me/thinking_in_java_chapter04/</loc>
-  <lastmod>2017-11-23T06:08:10+00:00</lastmod>
+  <loc>http://blog.jeizas.me/binary_sort_tree/</loc>
+  <lastmod>2019-11-12T16:10:12+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>http://www.jeizas.me/thinking_in_java_chapter03/</loc>
-  <lastmod>2017-11-23T06:08:10+00:00</lastmod>
+  <loc>http://blog.jeizas.me/tuning_tomcat_performance-copy/</loc>
+  <lastmod>2019-11-12T16:10:12+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>http://www.jeizas.me/thinking_in_java_chapter02/</loc>
-  <lastmod>2017-11-23T06:08:10+00:00</lastmod>
+  <loc>http://blog.jeizas.me/vim_command/</loc>
+  <lastmod>2019-11-12T16:10:12+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>http://www.jeizas.me/jvm_concept/</loc>
-  <lastmod>2017-11-23T06:08:10+00:00</lastmod>
+  <loc>http://blog.jeizas.me/java_ImageIO/</loc>
+  <lastmod>2019-11-12T16:10:12+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>http://www.jeizas.me/tuning_tomcat_performance/</loc>
-  <lastmod>2017-11-23T06:08:10+00:00</lastmod>
+  <loc>http://blog.jeizas.me/mobile_scanQRcode_login/</loc>
+  <lastmod>2019-11-12T16:10:12+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>http://www.jeizas.me/vim_command/</loc>
-  <lastmod>2017-11-23T06:08:10+00:00</lastmod>
+  <loc>http://blog.jeizas.me/utils_for_linux/</loc>
+  <lastmod>2019-11-12T16:10:12+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>http://www.jeizas.me/utils_for_linux/</loc>
-  <lastmod>2017-11-23T06:08:10+00:00</lastmod>
+  <loc>http://blog.jeizas.me/java8_new_function/</loc>
+  <lastmod>2019-11-12T16:10:12+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>http://www.jeizas.me/archlinux_install/</loc>
-  <lastmod>2017-11-23T06:08:10+00:00</lastmod>
+  <loc>http://blog.jeizas.me/Spring/</loc>
+  <lastmod>2019-11-12T16:10:12+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>http://www.jeizas.me/linux_hostname_update/</loc>
-  <lastmod>2017-11-23T06:08:10+00:00</lastmod>
+  <loc>http://blog.jeizas.me/jrebel/</loc>
+  <lastmod>2019-11-12T16:10:12+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>http://www.jeizas.me/hibernate_version_update/</loc>
-  <lastmod>2017-11-23T06:08:10+00:00</lastmod>
+  <loc>http://blog.jeizas.me/quartz/</loc>
+  <lastmod>2019-11-12T16:10:12+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>http://www.jeizas.me/Spring/</loc>
-  <lastmod>2017-11-23T06:08:10+00:00</lastmod>
+  <loc>http://blog.jeizas.me/hibernate_version_update/</loc>
+  <lastmod>2019-11-12T16:10:12+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>http://www.jeizas.me/jrebel/</loc>
-  <lastmod>2017-11-23T06:08:10+00:00</lastmod>
+  <loc>http://blog.jeizas.me/thinking_in_java_chapter17/</loc>
+  <lastmod>2019-11-12T16:10:12+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>http://www.jeizas.me/quartz/</loc>
-  <lastmod>2017-11-23T06:08:10+00:00</lastmod>
+  <loc>http://blog.jeizas.me/thinking_in_java_chapter16/</loc>
+  <lastmod>2019-11-12T16:10:12+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>http://www.jeizas.me/2016_yead_end_summary/</loc>
-  <lastmod>2017-11-23T06:08:10+00:00</lastmod>
+  <loc>http://blog.jeizas.me/thinking_in_java_chapter15/</loc>
+  <lastmod>2019-11-12T16:10:12+00:00</lastmod>
   <priority>0.64</priority>
 </url>
+<url>
+  <loc>http://blog.jeizas.me/thinking_in_java_chapter14/</loc>
+  <lastmod>2019-11-12T16:10:12+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://blog.jeizas.me/thinking_in_java_chapter13/</loc>
+  <lastmod>2019-11-12T16:10:12+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://blog.jeizas.me/thinking_in_java_chapter12/</loc>
+  <lastmod>2019-11-12T16:10:12+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://blog.jeizas.me/thinking_in_java_chapter11/</loc>
+  <lastmod>2019-11-12T16:10:12+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://blog.jeizas.me/thinking_in_java_chapter10/</loc>
+  <lastmod>2019-11-12T16:10:12+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://blog.jeizas.me/thinking_in_java_chapter09/</loc>
+  <lastmod>2019-11-12T16:10:12+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://blog.jeizas.me/thinking_in_java_chapter08/</loc>
+  <lastmod>2019-11-12T16:10:12+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://blog.jeizas.me/thinking_in_java_chapter07/</loc>
+  <lastmod>2019-11-12T16:10:12+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://blog.jeizas.me/thinking_in_java_chapter06/</loc>
+  <lastmod>2019-11-12T16:10:12+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://blog.jeizas.me/thinking_in_java_chapter05/</loc>
+  <lastmod>2019-11-12T16:10:12+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://blog.jeizas.me/thinking_in_java_chapter04/</loc>
+  <lastmod>2019-11-12T16:10:12+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://blog.jeizas.me/archlinux_install/</loc>
+  <lastmod>2019-11-12T16:10:12+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://blog.jeizas.me/linux_hostname_update/</loc>
+  <lastmod>2019-11-12T16:10:12+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://blog.jeizas.me/thinking_in_java_chapter03/</loc>
+  <lastmod>2019-11-12T16:10:12+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://blog.jeizas.me/thinking_in_java_chapter02/</loc>
+  <lastmod>2019-11-12T16:10:12+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://blog.jeizas.me/websocket/</loc>
+  <lastmod>2019-11-12T16:10:12+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://blog.jeizas.me/jvm_concept/</loc>
+  <lastmod>2019-11-12T16:10:12+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://blog.jeizas.me/nexus6p_root/</loc>
+  <lastmod>2019-11-12T16:10:12+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://blog.jeizas.me/cmd_Markdown/</loc>
+  <lastmod>2019-11-12T16:10:12+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://blog.jeizas.me/markdown_note/</loc>
+  <lastmod>2019-11-12T16:10:12+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://blog.jeizas.me/year_end-copy/</loc>
+  <lastmod>2019-11-12T16:10:12+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://blog.jeizas.me/tx_pass/</loc>
+  <lastmod>2019-11-12T16:10:12+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://blog.jeizas.me/Messy/</loc>
+  <lastmod>2019-11-12T16:10:12+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://blog.jeizas.me/do/</loc>
+  <lastmod>2019-11-12T16:10:12+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://blog.jeizas.me/why/</loc>
+  <lastmod>2019-11-12T16:10:12+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://blog.jeizas.me/Hysteria/</loc>
+  <lastmod>2019-11-12T16:10:12+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://blog.jeizas.me/thinking_1/</loc>
+  <lastmod>2019-11-12T16:10:12+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://blog.jeizas.me/thinking/</loc>
+  <lastmod>2019-11-12T16:10:12+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://blog.jeizas.me/good_ages/</loc>
+  <lastmod>2019-11-12T16:10:12+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://blog.jeizas.me/future/</loc>
+  <lastmod>2019-11-12T16:10:12+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://blog.jeizas.me/ZDX/</loc>
+  <lastmod>2019-11-12T16:10:12+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://blog.jeizas.me/time_limited/</loc>
+  <lastmod>2019-11-12T16:10:12+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://blog.jeizas.me/summary_of_2017/</loc>
+  <lastmod>2019-11-12T16:10:12+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://blog.jeizas.me/flower_is_dead/</loc>
+  <lastmod>2019-11-12T16:10:12+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://blog.jeizas.me/fuck_life/</loc>
+  <lastmod>2019-11-12T16:10:12+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://blog.jeizas.me/dajiang_UAV/</loc>
+  <lastmod>2019-11-12T16:10:12+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://blog.jeizas.me/feature_think/</loc>
+  <lastmod>2019-11-12T16:10:12+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://blog.jeizas.me/young_think/</loc>
+  <lastmod>2019-11-12T16:10:12+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://blog.jeizas.me/timeout/</loc>
+  <lastmod>2019-11-12T16:10:12+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://blog.jeizas.me/coffee_and_wine/</loc>
+  <lastmod>2019-11-12T16:10:12+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://blog.jeizas.me/december_thinking/</loc>
+  <lastmod>2019-11-12T16:10:12+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://blog.jeizas.me/december_summary/</loc>
+  <lastmod>2019-11-12T16:10:12+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://blog.jeizas.me/november_summary/</loc>
+  <lastmod>2019-11-12T16:10:12+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://blog.jeizas.me/winter_thinking/</loc>
+  <lastmod>2019-11-12T16:10:12+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://blog.jeizas.me/August_first_thinking/</loc>
+  <lastmod>2019-11-12T16:10:12+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://blog.jeizas.me/alltuu_thinking/</loc>
+  <lastmod>2019-11-12T16:10:12+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://blog.jeizas.me/coffee&amp;life_/</loc>
+  <lastmod>2019-11-12T16:10:12+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://blog.jeizas.me/vagrant/</loc>
+  <lastmod>2019-11-12T16:10:12+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://blog.jeizas.me/2016_yead_end_summary/</loc>
+  <lastmod>2019-11-12T16:10:12+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://blog.jeizas.me/Netty_ByteBuf/</loc>
+  <lastmod>2019-11-12T16:10:12+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://blog.jeizas.me/Netty_channelHandler/</loc>
+  <lastmod>2019-11-12T16:10:12+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://blog.jeizas.me/Netty_pipline/</loc>
+  <lastmod>2019-11-12T16:10:12+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://blog.jeizas.me/Netty_channel/</loc>
+  <lastmod>2019-11-12T16:10:12+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://blog.jeizas.me/swagger/</loc>
+  <lastmod>2019-11-12T16:10:12+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+
+
 </urlset>
